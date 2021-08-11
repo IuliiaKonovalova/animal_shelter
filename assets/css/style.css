@@ -42,14 +42,18 @@ header {
     position: fixed;
     width: 100%;
     z-index: 999;
-    height: 7vh;
+    letter-spacing: .4rem;
+    
 }
 
 /*Styling Logo*/
 
 .logo {
     font-family: var(--ff-accent);
-    /* font-size: 200; */
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem;
 }
 
 .logo_icon {
@@ -140,7 +144,7 @@ header {
 
 /*Styling menu Icons*/
 
-.nav_icon {
+.nav_icon {   
     display: inline-block;
     padding-right: 1rem;
     color: var(--clr-nueteral-300);
@@ -157,4 +161,104 @@ header {
 .nav-toggle:checked ~ .nav_menu a {
     opacity: 1;
     transition: opacity 350ms ease-in-out 350ms;
+}
+
+@media (min-width: 60rem) {
+    
+    .nav-toggle-label {
+        display: none;
+    }
+
+    .nav_container {
+        display: grid;
+        
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .logo {
+        grid-row: 1/2;
+    }
+
+    .nav_menu {
+        all: unset;
+        grid-row: 2/3;
+        display: flex;
+        justify-content: center;
+        text-align: center;       
+    }
+
+    .nav_menu ul {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .nav_menu li {
+        margin-right: 2.5em;
+        margin-bottom: 0;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .nav_menu ul:first-child {
+        margin-top: .5em;
+    }
+
+    .nav_menu a {
+        opacity: 1;
+    }
+
+    .nav_menu .nav_icon {
+        
+        display: none;
+    }
+
+    .nav_menu a:hover {
+        text-decoration: underline;
+    }
+}
+
+
+@media (min-width: 120rem) {
+    
+    .nav-toggle-label {
+        display: none;
+    }
+
+    .nav_container {
+        display: grid;
+        grid-template-columns: 1fr auto minmax(37rem, 3fr) 1fr;
+        grid-template-rows: none;
+    }
+
+    .logo_container {
+        grid-column: 1/2;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .logo {
+        display: flex;
+    }
+
+
+
+    .nav_menu {
+        all: unset;
+        grid-column: 3/5;
+        display: flex;
+        justify-content: flex-end;
+        
+    }
+
+    .nav_menu ul {
+        display: flex;
+    }
+
+    .nav_menu li {
+        margin-right: 5em;
+    }
+
+  
 }
