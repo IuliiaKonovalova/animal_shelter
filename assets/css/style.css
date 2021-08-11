@@ -28,7 +28,7 @@ body {
 }
 
 .content {
-    height: 90vh;
+    /* height: 90vh; */
     display: grid;
     
 }
@@ -262,3 +262,29 @@ header {
 
   
 }
+
+img {
+    display: block;
+    width: 100%;
+}
+/*Section Hero*/
+
+.hero_main {
+    height: 50vh;
+	width: auto;
+	background-color: var(--clr-primary-900);
+}
+
+.hero_image {
+    height: 40vh;
+    
+
+    background-image: linear-gradient(14deg, rgba(2, 0, 36, 0.377) 0%, rgba(9, 9, 121, 0.356) 6%, rgba(16,183,216,0.5) 100%), url("../images/hero-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    
+    
+}
+
