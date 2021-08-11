@@ -5,8 +5,8 @@
 	--clr-primary-300: #10b7d8;
 	--clr-primary-900: #00a7dc;
 	--clr-nueteral-100: #fff6f2;
-	--clr-nueteral-300: #696969;
-	--clr-nueteral-900: rgb(12, 12, 12);
+	--clr-nueteral-300: #464362;
+	--clr-nueteral-900: #0c0c0c;
     --clr-accent-900: #9610d8;
 	--ff-primary: 'Lato', sans-serif;
 	--ff-accent: 'Lobster', cursive;
@@ -28,7 +28,7 @@ body {
 }
 
 .content {
-    height: 100vh;
+    height: 90vh;
     display: grid;
     
 }
@@ -42,6 +42,7 @@ header {
     position: fixed;
     width: 100%;
     z-index: 999;
+    height: 6vh;
 }
 
 /*Styling Logo*/
@@ -98,6 +99,8 @@ header {
 
 }
 
+/*Styling menu*/
+
 .nav_menu {
     position: absolute;
     text-align: left;
@@ -130,10 +133,16 @@ header {
     transition: opacity 500ms ease-in-out;
 }
 
+/*Styling menu Icons*/
 
+.nav_icon {
+    display: inline-block;
+    padding-right: 1rem;
+    color: var(--clr-nueteral-300);
+}
 
 .nav_menu a:hover {
-    color: red;
+    color: var(--clr-accent-900);
 }
 
 .nav-toggle:checked ~ .nav_menu {
