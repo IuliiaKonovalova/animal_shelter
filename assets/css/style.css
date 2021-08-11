@@ -2,11 +2,11 @@
 
 :root {
 	--clr-primary-100: #e8fdff;
-	--clr-primary-300: #10b7d8d2;
+	--clr-primary-300: #10b7d8;
 	--clr-primary-900: #00a7dc;
 	--clr-nueteral-100: #fff6f2;
 	--clr-nueteral-300: #696969;
-	--clr-nueteral-900: #333;
+	--clr-nueteral-900: rgb(12, 12, 12);
     --clr-accent-900: #9610d8;
 	--ff-primary: 'Lato', sans-serif;
 	--ff-accent: 'Lobster', cursive;
@@ -104,12 +104,43 @@ header {
     top: 100%;
     left: 0;
     width: 100%;
-    background: lawngreen;
+    background: var(--clr-primary-300);
     transform: scale(1, 0);
     transform-origin: top;
     transition: transform 1000ms ease-in-out;
 }
 
-.nav_container {
+.nav_menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 
+.nav_menu li {
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+.nav_menu a {
+    text-decoration: none;
+    color: var(--clr-nueteral-900);
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    opacity: 0;
+    transition: opacity 500ms ease-in-out;
+}
+
+
+
+.nav_menu a:hover {
+    color: red;
+}
+
+.nav-toggle:checked ~ .nav_menu {
+    transform: scale(1, 1);
+}
+
+.nav-toggle:checked ~ .nav_menu a {
+    opacity: 1;
+    transition: opacity 350ms ease-in-out 350ms;
 }
