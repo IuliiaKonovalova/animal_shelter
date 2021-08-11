@@ -4,9 +4,9 @@
 	--clr-primary-100: #c7fcec;
 	--clr-primary-300: #00c9a7;
 	--clr-primary-900: #398b77;
-	--clr-neuteral-100: #fff6f2;
-	--clr-neuteral-300: #696969;
-	--clr-neuteral-900: #333;
+	--clr-nueteral-100: #fff6f2;
+	--clr-nueteral-300: #696969;
+	--clr-nueteral-900: #333;
     --clr-accent-900: #4b31a1;
 	--ff-primary: 'Lato', sans-serif;
 	--ff-accent: 'Lobster', cursive;
@@ -18,3 +18,10 @@
     padding: 0
 }
 
+body {
+    font-family: var(--ff-primary);
+    font-weight: 300;
+    font-size: 1.5rem;
+	line-height: 1.4;
+    color: var(--clr-nueteral-900);
+}
