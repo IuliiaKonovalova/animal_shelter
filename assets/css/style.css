@@ -98,6 +98,18 @@ header {
 
 }
 
+.nav_menu {
+    position: absolute;
+    text-align: left;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: lawngreen;
+    transform: scale(1, 0);
+    transform-origin: top;
+    transition: transform 1000ms ease-in-out;
+}
+
 .nav_container {
 
 }
