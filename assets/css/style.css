@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Lobster&display=swap');
 
 :root {
-	--clr-primary-100: #c7fcec;
-	--clr-primary-300: #00c9a7;
-	--clr-primary-900: #398b77;
+	--clr-primary-100: #e8fdff;
+	--clr-primary-300: #10b7d8d2;
+	--clr-primary-900: #00a7dc;
 	--clr-nueteral-100: #fff6f2;
 	--clr-nueteral-300: #696969;
 	--clr-nueteral-900: #333;
-    --clr-accent-900: #4b31a1;
+    --clr-accent-900: #9610d8;
 	--ff-primary: 'Lato', sans-serif;
 	--ff-accent: 'Lobster', cursive;
 }
@@ -25,4 +25,30 @@ body {
 	line-height: 1.4;
     color: var(--clr-nueteral-900);
     background: var(--clr-nueteral-100);
+}
+
+/*Header Styling*/
+
+header {
+    background: var(--clr-primary-300);
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+/*Styling Logo*/
+
+.logo {
+    font-family: var(--ff-accent);
+    /* color: var(--clr-primary-900) */
+}
+
+.logo_icon {
+    color: var(--clr-accent-900);
+}
+
+
+.nav_container {
+
 }
