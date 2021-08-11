@@ -24,4 +24,5 @@ body {
     font-size: 1.5rem;
 	line-height: 1.4;
     color: var(--clr-nueteral-900);
+    background: var(--clr-nueteral-100);
 }
