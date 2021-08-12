@@ -229,10 +229,37 @@ header {
         margin: 0 auto;
         font-size: 1.7rem;   
     }
+
+    .grid_cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .card-1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .card-2 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .card-3 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .card-4 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
 }
 
 
 @media (min-width: 95rem) {
+
+    /*Media for Navbar*/
     
     .nav-toggle-label {
         display: none;
@@ -273,7 +300,7 @@ header {
         margin-right: 5em;
     }
 
-    /*Styling text in the hero section*/
+    /*Media for the hero section*/
 
 
     
@@ -284,6 +311,38 @@ header {
         margin: 0 auto;
         font-size: 2rem;
     }
+
+    /*Media for cards section*/
+
+    .grid_cards {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .card-1 {
+        grid-column: 1/2;
+        grid-row: 1/3;
+    }
+    .card-2 {
+        grid-column: 2/3;
+        grid-row: 1/3;
+    }
+    .card-3 {
+        grid-column: 3/4;
+        grid-row: 1/3;
+    }
+    .card-4 {
+        grid-column: 4/5;
+        grid-row: 1/3;
+    }
+
+
+
+
+
 
 }
 
@@ -365,23 +424,20 @@ img {
 
 .main_cons {
     background: var(--clr-primary-100);
-    display: flex;
-    flex-direction: row;
 }
 
 .grid_cards {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
+    display: flex;
+    flex-direction: column;
     padding: 1rem;
 }
+
 .card_content {
     display: flex;
     flex-direction: column;
     height: 100%;
     justify-content: center;
     text-align: center;
-    outline: 2px solid red;
     background: var(--clr-primary-300);
     padding: 1rem;
 }
@@ -390,7 +446,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding-bottom: 1rem;
 }
 
 
@@ -401,15 +457,10 @@ img {
     height: 45%;
     max-height: 12.5rem;
     background: var(--clr-primary-100);
-    
-
 }
 
 .card-title {
     text-transform: uppercase;
     margin-top: .5rem;
-
-
-
 }
 
