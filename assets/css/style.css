@@ -216,10 +216,23 @@ header {
     .nav_menu a:hover {
         text-decoration: underline;
     }
+
+        /*Styling text in the hero section*/
+
+    .hero_about-us {
+        width: 100%;
+    
+    }
+    .hero_about-us {
+        width: 60%;
+        max-width: 31rem;
+        margin: 0 auto;
+        font-size: 1.7rem;   
+    }
 }
 
 
-@media (min-width: 120rem) {
+@media (min-width: 100rem) {
     
     .nav-toggle-label {
         display: none;
@@ -260,7 +273,18 @@ header {
         margin-right: 5em;
     }
 
-  
+    /*Styling text in the hero section*/
+
+
+    
+        
+    .hero_about-us p {
+        width: 70%;
+        max-width: 70em;
+        margin: 0 auto;
+        font-size: 2rem;
+    }
+
 }
 
 img {
@@ -278,7 +302,7 @@ img {
 /*Styling image*/
 
 .hero_image {
-    height: 40vh;
+    height: 50vh;
     
 
     background-image: linear-gradient(14deg, rgba(2, 0, 36, 0.377) 0%, rgba(9, 9, 121, 0.356) 6%, rgba(16,183,216,0.5) 100%), url("../images/hero-image.jpg");
@@ -293,18 +317,21 @@ img {
 .hero_text {
     display: flex;
     text-align: center;    
-    margin: 3rem;
+    margin: 1rem;
     flex-direction: column;
+    padding: 2rem;
 }
 
 .hero_title {
     font-family: var(--ff-accent);
     font-size: 4rem;
+    width: 100%;
 }
 
 .hero_about-us {
-    padding: 2rem 12rem;
-    font-size: 1.3rem;
+    max-width: 80%;
+    margin: 2rem auto;
+    font-size: 1.7rem;
 }
 
 /*Styling buttons*/
