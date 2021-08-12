@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Lobster&display=swap');
 
 :root {
-	--clr-primary-100: #e8fdff;
+	--clr-primary-100: #87e1f3;
 	--clr-primary-300: #10b7d8;
 	--clr-primary-900: #00a7dc;
 	--clr-nueteral-100: #fff6f2;
@@ -37,7 +37,7 @@ body {
 /*Header Styling*/
 
 header {
-    background: var(--clr-primary-300);
+    background: var(--clr-primary-900);
     text-align: center;
     position: fixed;
     width: 100%;
@@ -112,7 +112,7 @@ header {
     top: 100%;
     left: 0;
     width: 100%;
-    background: var(--clr-primary-300);
+    background: var(--clr-primary-900);
     transform: scale(1, 0);
     transform-origin: top;
     transition: transform 1000ms ease-in-out;
@@ -139,7 +139,7 @@ header {
     text-transform: uppercase;
     font-size: 1.7rem;
     opacity: 0;
-    transition: opacity 500ms ease-in-out;
+    transition: opacity 350ms ease-in-out;
 }
 
 /*Styling menu Icons*/
@@ -270,10 +270,12 @@ img {
 /*Section Hero*/
 
 .hero_main {
-    height: 50vh;
+    
 	width: auto;
 	background-color: var(--clr-primary-900);
 }
+
+/*Styling image*/
 
 .hero_image {
     height: 40vh;
@@ -283,8 +285,51 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    background-attachment: fixed;
+    background-attachment: fixed;    
+}
+
+/*Styling text in the hero section*/
+
+.hero_text {
+    display: flex;
+    text-align: center;    
+    margin: 3rem;
+    flex-direction: column;
+}
+
+.hero_title {
+    font-family: var(--ff-accent);
+    font-size: 4rem;
+}
+
+.hero_about-us {
+    padding: 2rem 12rem;
+    font-size: 1.3rem;
+}
+
+/*Styling buttons*/
+
+.btn {
+    display: inline-block;
+    padding: .7rem 1.3rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid var(--clr-primary-900);
+    background-color: var(--clr-primary-100);
+    background: linear-gradient(to bottom, #c223de1f 5%, #a30dbd36 100%);
+    border-radius: .5rem;
+    box-shadow:inset 0 -3px 0 1px #0f020b52;
     
     
 }
 
+.btn a {
+    text-decoration: none;
+    color: var(--clr-nueteral-900)
+}
+
+.btn:hover {
+    background:linear-gradient(to top, #a30dbdb7 5%, #9510d8 100%);
+    
+}
