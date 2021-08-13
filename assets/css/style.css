@@ -164,8 +164,6 @@ header {
     transition: opacity 350ms ease-in-out 350ms;
 }
 
-
-
 img {
     display: block;
     width: 100%;
@@ -393,6 +391,35 @@ footer {
     color: var(--clr-primary-100);
     padding: 3rem 1rem;
     font-size: 2rem;
+}
+
+
+/* Styling 2nd Page "GALLERY*/
+
+.gallery_main {
+    background: var(--clr-nueteral-100);
+    width: 100%;
+    margin: 0;
+    padding:0;
+    padding: 2rem 0;
+}
+
+
+.grid_gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+    grid-auto-flow: dense;
+	/* grid-gap: 1rem; */
+}
+
+.gallery_image {
+    padding: 2rem;
+    /* outline: 1px solid var(--clr-primary-900); */
+}
+
+.grid_gallery img {
+    outline: 1px solid var(--clr-primary-900);
+    /* padding: 1rem;  */
 }
 
 
