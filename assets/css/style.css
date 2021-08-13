@@ -453,3 +453,27 @@ img {
     margin-top: .5rem;
 }
 
+/*Styling Testimonial Section*/
+
+.testimonial {
+    display: grid;
+    background: chocolate;
+    padding: 1rem;
+}
+.testimonial .testimonials_title {
+    font-family: var(--ff-accent);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.testimonial_content {
+    outline: 1px solid red;
+    margin: 1rem;
+    padding: 2rem;
+    background: var(--clr-primary-100);
+    display: flex;
+}
+
+.testimonial_image
