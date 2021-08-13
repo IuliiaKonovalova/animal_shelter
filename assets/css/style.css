@@ -374,6 +374,11 @@ img {
     text-align: center;
 }
 
+/*Styling Footer*/
+
+footer {
+    background: var(--clr-primary-900);
+}
 
 /* << MEDIA >> */
 
