@@ -316,10 +316,9 @@ img {
 }
 
 .testimonial_image img {
-    
     width: 40%;
     border-radius: 50%;
-    outline: 1px solid var(--clr-primary-900);
+    border: 1px solid var(--clr-primary-900);
     padding: .5rem;
 }
 
@@ -355,6 +354,25 @@ img {
     font-style: italic;
 }
 
+/*Styling Call to action section*/
+
+.call_to_action {
+    background: var(--clr-primary-300);
+    
+}
+
+.call_to_action_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem auto;
+}
+
+.call_to_action_text {
+    padding: 4rem;
+    text-align: center;
+}
 
 
 /* << MEDIA >> */
