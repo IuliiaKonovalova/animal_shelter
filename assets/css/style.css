@@ -428,8 +428,6 @@ footer {
     width: 100%;
 }
 
-
-
 .gallery_image img {
     outline: 1px solid var(--clr-primary-900);
         display: block;
@@ -452,7 +450,6 @@ footer {
     background: #464362e9;
     padding: 3rem;
 }
-
 
 .gallery_image:hover .image_content {
     opacity: 1;
@@ -480,18 +477,74 @@ footer {
     left: 50%;
     transform: translate(-50%, -50%);
 	max-width: 95%;
-	background-color: #bef0face;
-	padding: 3rem 2rem;
+	background-color: var(--clr-primary-900);
+	padding: 2rem 2rem;
 	border-radius: var(--br);
 	box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.7);
-    margin: 0;
+    
 }
 
+/*Styling Contact_Form*/
 
+.contact_form_title {
+    text-align: center;
+    font-family: var(--ff-accent);
+    font-size: 1.8rem;
+    padding-bottom: 1rem;
+}
+
+.contact_form_incentive {
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.sign-up_form {
+    margin-top: 2rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.text_input {
+    padding: 0.5rem;
+    border: 1px solid var(--clr-primary-300);
+    background-color: var(--clr-primary-100);
+	border-radius: var(--br);
+	font-size: 1.2rem;
+    margin-bottom: .7rem;
+    box-sizing: border-box;
+    justify-content: center;align-items: center;
+}
+
+.text_input:focus {
+    outline: none;
+}
+
+.contact_issue {
+    display: inline-block;
+    padding: 0 1.5rem 1rem 1.5rem;
+    text-transform: uppercase;
+    font-size: .8rem;
+}
+
+.form_checkbox {
+    width: .8rem;
+    height: .8rem;
+    margin: 0 .5rem;
+}
+
+.form_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* << MEDIA >> */
 
-@media (min-width: 60rem) {
+@media (min-width: 50rem) {
     
     .nav-toggle-label {
         display: none;
@@ -528,6 +581,9 @@ footer {
         margin-top: 0;
         padding: 0;
     }
+    .nav_menu li:last-child {
+        margin-right: 0;
+    }
 
     .nav_menu ul:first-child {
         margin-top: .5em;
@@ -538,7 +594,6 @@ footer {
     }
 
     .nav_menu .nav_icon {
-        
         display: none;
     }
 
@@ -596,6 +651,10 @@ footer {
     .social_networks i {
         padding: 3rem 3rem;
     }
+
+    /*Media for Contact form*/
+
+    
 
 }
 
