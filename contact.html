@@ -97,7 +97,79 @@
                <div class="content">
                     <!--Form Section-->
 
-                    <section class="contact_form"></section>
+                    <section class="contact_form">
+                         <form method="POST" action="" class="signup-form">
+                              <h2>
+                                   Let's get you signed up!
+                                   <i class="fas fa-heartbeat"></i>
+                              </h2>
+                              <label for="fname">First Name</label>
+                              <input
+                                   id="fname"
+                                   name="first_name"
+                                   type="text"
+                                   required
+                                   class="text-input"
+                              />
+
+                              <label for="lname">Last Name</label>
+                              <input
+                                   id="lname"
+                                   name="last_name"
+                                   type="text"
+                                   required
+                                   class="text-input"
+                              />
+
+                              <label for="email">Email Address</label>
+                              <input
+                                   type="email"
+                                   id="email"
+                                   name="email_address"
+                                   required
+                                   class="text-input"
+                              />
+
+                              <label for="adaption">Adaption</label>
+                              <input
+                                   type="radio"
+                                   id="adaption"
+                                   name="contact_issue"
+                                   value="adaption"
+                                   required
+                              />
+                              <label for="donation">Donation</label>
+                              <input
+                                   type="radio"
+                                   id="donation"
+                                   name="contact_issue"
+                                   value="donation"
+                                   required
+                              />
+                              <label for="other">Other</label>
+                              <input
+                                   type="radio"
+                                   id="other"
+                                   name="contact_issue"
+                                   value="other"
+                                   required
+                              />
+
+                              <label for="comments">Comments</label>
+                              <textarea
+                                   name="comments"
+                                   class="form_comments"
+                                   rows="10"
+                                   placeholder="Enter your message..."
+                              ></textarea>
+
+                              <input
+                                   class="join-button"
+                                   type="submit"
+                                   value="Submit"
+                              />
+                         </form>
+                    </section>
                </div>
                <!--Footer-->
                <footer>
