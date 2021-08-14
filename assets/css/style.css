@@ -370,6 +370,7 @@ img {
 .call_to_action_text {
     padding: 4rem;
     text-align: center;
+    letter-spacing: .5;
 }
 
 /*Styling Footer*/
@@ -406,7 +407,7 @@ footer {
 
 .grid_gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(16em, 1fr));
     grid-auto-flow: dense;
 }
 
