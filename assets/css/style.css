@@ -10,7 +10,7 @@
     --clr-accent-900: #9610d8;
 	--ff-primary: 'Lato', sans-serif;
 	--ff-accent: 'Lobster', cursive;
-    --br: 5px;
+    --br: .5em;
 }
 
 *, *::before, *::after {
@@ -292,7 +292,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .testimonial_content {
@@ -471,12 +471,22 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    
+    position: relative;
 }
 
-.contact_form ~ footer {
+.contact_form_container {
     position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	max-width: 95%;
+	background-color: #bef0face;
+	padding: 3rem 2rem;
+	border-radius: var(--br);
+	box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.7);
+    margin: 0;
 }
+
 
 
 /* << MEDIA >> */
