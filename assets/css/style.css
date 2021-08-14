@@ -284,7 +284,7 @@ img {
 .testimonial {
     display: flex;
     background: var(--clr-primary-100);
-    padding: .5rem;
+    padding: 6rem .5rem;
 }
 
 .testimonial .testimonials_title {
@@ -292,8 +292,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 4rem auto 2rem auto;
-    
+    margin-bottom: 3rem;
 }
 
 .testimonial_content {
@@ -338,7 +337,7 @@ img {
     padding: 1rem;
 }
 
-.link_to_stories_page {
+/* .link_to_stories_page {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -350,7 +349,7 @@ img {
     text-decoration: none;
     color: var(--clr-primary-900);
     font-style: italic;
-}
+} */
 
 /*Styling Call to action section*/
 
@@ -464,8 +463,20 @@ footer {
 }
 
 
-/* Styling 3rd Page "GALLERY*/
+/* Styling 3rd Page "CONTACT*/
 
+.contact_form {
+    height: calc(100vh - 8rem);
+    background-image: linear-gradient(14deg, rgba(2, 0, 36, 0.377) 0%, rgba(9, 9, 121, 0.356) 6%, rgba(16,183,216,0.5) 100%), url("../images/hero-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+.contact_form ~ footer {
+    position: fixed;
+}
 
 
 /* << MEDIA >> */
@@ -573,7 +584,7 @@ footer {
     /*StyMedia for Footer*/
 
     .social_networks i {
-       padding: 3rem 3rem;
+        padding: 3rem 3rem;
     }
 
 }
@@ -661,10 +672,10 @@ footer {
     /*Media for Testimonial Section*/
 
     .testimonials_all {
-       display: grid;
-       grid-template-columns: repeat(3, 1fr);
-       background: var(--clr-primary-100);
-       padding: .5rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        background: var(--clr-primary-100);
+        padding: .5rem;
     }
 
     .testimonial_1 {
