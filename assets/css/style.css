@@ -692,6 +692,10 @@ footer {
         margin-right: 5em;
     }
 
+    .nav_menu ul:last-child {
+        margin-right: 3rem;
+    }
+
         /*Media for the hero section*/
 
 
