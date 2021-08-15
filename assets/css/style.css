@@ -337,20 +337,6 @@ img {
     padding: 1rem;
 }
 
-/* .link_to_stories_page {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1.5rem;
-    
-}
-
-.link_to_stories_page a {
-    text-decoration: none;
-    color: var(--clr-primary-900);
-    font-style: italic;
-} */
-
 /*Styling Call to action section*/
 
 .call_to_action {
@@ -397,17 +383,17 @@ footer {
 /* Styling 2nd Page "GALLERY*/
 
 .gallery_main {
-    background: var(--clr-nueteral-100);
+    background-color: var(--clr-primary-300);
     width: 100%;
     margin: 0;
-    padding:0;
+    padding:1vh;
 }
-
 
 .grid_gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
     grid-auto-flow: dense;
+    gap: 1vh;
 }
 
 .gallery_image {
@@ -415,6 +401,8 @@ footer {
     width: 100%;
     background-color: #0f2d36;
     transition: opacity ease-out 250ms;
+    cursor: pointer;
+    
 
 }
 
@@ -481,7 +469,6 @@ footer {
 	padding: 2rem 2rem;
 	border-radius: var(--br);
 	box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.7);
-    
 }
 
 /*Styling Contact_Form*/
@@ -501,7 +488,7 @@ footer {
 }
 
 .sign-up_form {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
 }
 
 .hidden {
@@ -513,7 +500,7 @@ footer {
     border: 1px solid var(--clr-primary-300);
     background-color: var(--clr-primary-100);
 	border-radius: var(--br);
-	font-size: 1.2rem;
+	font-size: 1rem;
     margin-bottom: .7rem;
     box-sizing: border-box;
     justify-content: center;align-items: center;
@@ -524,8 +511,8 @@ footer {
 }
 
 .contact_issue {
-    display: inline-block;
-    padding: 0 1.5rem 1rem 1.5rem;
+    display: inline;
+    padding: 0rem 1.2rem;
     text-transform: uppercase;
     font-size: .8rem;
 }
@@ -533,19 +520,22 @@ footer {
 .form_checkbox {
     width: .8rem;
     height: .8rem;
-    margin: 0 .5rem;
+    margin: 0 .2rem;
 }
 
 .form_btn {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: .5rem;
 }
 
 /* << MEDIA >> */
 
 @media (min-width: 50rem) {
     
+        /*Media for Navbar*/
+
     .nav-toggle-label {
         display: none;
     }
@@ -612,7 +602,7 @@ footer {
         font-size: 1.5rem;
     }
 
-    /*Media for the card section*/
+        /*Media for the card section*/
 
     .grid_cards {
         display: grid;
@@ -640,28 +630,29 @@ footer {
     }
 
 
-    /*Media for Testimonial Section*/
+        /*Media for Testimonial Section*/
 
     .testimonial_image img { 
         width: 20%;
     }
 
-    /*StyMedia for Footer*/
+        /*Media for Footer*/
 
     .social_networks i {
         padding: 3rem 3rem;
     }
 
-    /*Media for Contact form*/
+        /*Media for Grid Gallery*/
 
-    
+    .grid_gallery {
+        grid-template-columns: repeat(3, minmax(10em, 1fr));
+    }
 
-}
 
 
 @media (min-width: 95rem) {
 
-    /*Media for Navbar*/
+        /*Media for Navbar*/
     
     .nav-toggle-label {
         display: none;
@@ -701,7 +692,7 @@ footer {
         margin-right: 5em;
     }
 
-    /*Media for the hero section*/
+        /*Media for the hero section*/
 
 
     .hero_about-us p {
@@ -712,7 +703,7 @@ footer {
     }
 
 
-    /*Media for cards section*/
+        /*Media for cards section*/
 
     .grid_cards {
         display: grid;
@@ -738,7 +729,7 @@ footer {
         grid-row: 1/3;
     }
 
-    /*Media for Testimonial Section*/
+        /*Media for Testimonial Section*/
 
     .testimonials_all {
         display: grid;
@@ -769,10 +760,91 @@ footer {
         width: 40%;
     }
 
-    /*Media for Footer*/
+        /*Media for Footer*/
 
     .social_networks i {
         padding: 3rem 7rem;
     }
+
+        /*Media for Grid Gallery*/
+
+    .grid_gallery {
+        grid-template-columns: repeat(5, minmax(10em, 1fr));
+    }
+
+        /*Media for Contact form*/
+
+    .contact_form_title {
+        text-align: center;
+        font-family: var(--ff-accent);
+        font-size: 1.8rem;
+        padding-bottom: 1rem;
+    }
+    
+    .contact_form_incentive {
+        text-transform: uppercase;
+        letter-spacing: .1rem;
+        font-size: 1rem;
+        text-align: center;
+    }
+    
+    .sign-up_form {
+        margin-top: 2rem;
+    }
+    
+        .hidden {
+            all: unset;
+        }
+    
+        .form_grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(4, 1fr);
+            gap: 1rem;
+        }
+    
+        .label_first_name {
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
+    
+        .input_first_name {
+            grid-column: 2/4;
+            grid-row: 1/2;
+        }
+    
+        .label_last_name {
+            grid-column: 1/2;
+            grid-row: 2/3;
+        }
+    
+        .input_last_name {
+            grid-column: 2/4;
+            grid-row: 2/3;
+        }
+    
+        .label_email {
+            grid-column: 1/2;
+            grid-row: 3/4;
+        }
+    
+        .input_email {
+            grid-column: 2/4;
+            grid-row: 3/4;
+        }
+    
+        .adaption_donation {
+            grid-column: 2/4;
+            grid-row: 4/5;
+        }
+    
+        .contact_issue {
+            font-size: 1.2rem;
+        }
+    
+        .form_checkbox {
+            width: 1.2rem;
+            height: 1.2rem;
+        }
 
 }

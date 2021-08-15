@@ -102,8 +102,10 @@
                                    action=""
                                    class="sign-up_form"
                               >
-                                   <div class="form_label_input">
-                                        <label for="first_name" class="hidden"
+                                   <div class="form_grid">
+                                        <label
+                                             for="first_name"
+                                             class="hidden label_first_name"
                                              >First Name</label
                                         >
                                         <input
@@ -112,11 +114,12 @@
                                              type="text"
                                              placeholder="First Name"
                                              required
-                                             class="text_input"
+                                             class="text_input input_first_name"
                                         />
-                                   </div>
-                                   <div class="form_last_name">
-                                        <label for="last_name" class="hidden"
+
+                                        <label
+                                             for="last_name"
+                                             class="hidden label_last_name"
                                              >Last Name</label
                                         >
                                         <input
@@ -125,11 +128,12 @@
                                              type="text"
                                              placeholder="Last Name"
                                              required
-                                             class="text_input"
+                                             class="text_input input_last_name"
                                         />
-                                   </div>
-                                   <div class="form_last_name">
-                                        <label for="email" class="hidden"
+
+                                        <label
+                                             for="email"
+                                             class="hidden label_email"
                                              >Email Address</label
                                         >
                                         <input
@@ -138,30 +142,45 @@
                                              name="email_address"
                                              placeholder="Email Address"
                                              required
-                                             class="text_input"
+                                             class="text_input input_email"
                                         />
+                                        <div class="adaption_donation">
+                                             <div
+                                                  class="
+                                                       contact_issue
+                                                       label_adaption
+                                                  "
+                                             >
+                                                  <label for="adaption"
+                                                       >Adapt</label
+                                                  >
+                                                  <input
+                                                       type="checkbox"
+                                                       id="adaption"
+                                                       name="contact_issue"
+                                                       value="adaption"
+                                                       class="form_checkbox"
+                                                  />
+                                             </div>
+                                             <div
+                                                  class="
+                                                       contact_issue
+                                                       label_donation
+                                                  "
+                                             >
+                                                  <label for="donation"
+                                                       >Donate</label
+                                                  >
+                                                  <input
+                                                       type="checkbox"
+                                                       id="donation"
+                                                       name="contact_issue"
+                                                       value="donation"
+                                                       class="form_checkbox"
+                                                  />
+                                             </div>
+                                        </div>
                                    </div>
-                                   <div class="contact_issue">
-                                        <label for="adaption">Adapt</label>
-                                        <input
-                                             type="checkbox"
-                                             id="adaption"
-                                             name="contact_issue"
-                                             value="adaption"
-                                             class="form_checkbox"
-                                        />
-                                   </div>
-                                   <div class="contact_issue">
-                                        <label for="donation">Donate</label>
-                                        <input
-                                             type="checkbox"
-                                             id="donation"
-                                             name="contact_issue"
-                                             value="donation"
-                                             class="form_checkbox"
-                                        />
-                                   </div>
-
                                    <div class="form_btn">
                                         <input
                                              class="btn form_btn"
