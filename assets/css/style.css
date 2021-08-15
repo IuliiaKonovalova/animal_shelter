@@ -383,7 +383,7 @@ footer {
 /* Styling 2nd Page "GALLERY*/
 
 .gallery_main {
-    background-color: var(--clr-primary-300);
+    background-image: linear-gradient(to bottom, #00a7dc, #00abdb, #00afdb, #00b3d9, #10b7d8);
     width: 100%;
     margin: 0;
     padding:1vh;
@@ -402,7 +402,7 @@ footer {
     background-color: #0f2d36;
     transition: opacity ease-out 250ms;
     cursor: pointer;
-    
+    box-shadow: .1rem .1rem .1rem rgba(0, 0, 0, 0.452);
 
 }
 
@@ -418,7 +418,7 @@ footer {
 
 .gallery_image img {
     outline: 1px solid var(--clr-primary-900);
-        display: block;
+    display: block;
 }
 
 
