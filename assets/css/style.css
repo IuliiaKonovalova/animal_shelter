@@ -523,7 +523,6 @@ footer {
 .input_first_name {
     grid-row: 3/4;
     grid-column: 1/2;
-    /* display: inline-block; */
     text-align: center;
     justify-content: center;
 }
@@ -549,19 +548,14 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-size: 1rem;
 }
 
 .form_checkbox {
     width: .8rem;
     height: .8rem;
-    margin: 0 .2rem;
-}
-
-input[type="checkbox"] {
-    width: .8rem;
-    height: .8rem;
-    margin: 0 .2rem;
+    margin: 0 .5rem;
 }
 
 .form_btn {
@@ -570,26 +564,6 @@ input[type="checkbox"] {
     text-align: center;
     justify-content: center;
 }
-/*Styling Contact_Form*/
-
-/* .contact_form_title {
-    text-align: center;
-    font-family: var(--ff-accent);
-    font-size: 1.8rem;
-    padding-bottom: 1rem;
-} */
-
-/* .form_grid {
-    display: grid;
-    grid-template-rows: repeat(4, 1fr);
-    gap: 1rem;
-} */
-
-/* .sign-up_form {
-    margin-top: 1.5rem;
-} */
-
-
 
 
 /* << MEDIA >> */
