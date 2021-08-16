@@ -473,7 +473,6 @@ footer {
 	padding: 2rem 0;
 	border-radius: var(--br);
 	box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.7);
-    width: max-content;
     z-index: 500;    
 }
 
@@ -514,6 +513,7 @@ footer {
 	font-size: 1.1rem;
     letter-spacing: .2rem;
     width: 90%;
+    margin: .2rem 1rem;
 }
 
 .text_input:focus {
@@ -567,7 +567,7 @@ footer {
 
 /* << MEDIA >> */
 
-@media (min-width: 50rem) {
+@media screen and (min-width: 50rem) {
     
         /*Media for Navbar*/
 
@@ -685,7 +685,7 @@ footer {
 }
 
 
-@media (min-width: 95rem) {
+@media screen and (min-width: 95rem) {
 
         /*Media for Navbar*/
     
@@ -912,27 +912,147 @@ footer {
     } */
 
 /* ----------- iPhone 4 and 4S ----------- */
-/* Portrait and Landscape */
+
+
+ @media screen and (max-width: 22rem){
+
+    .sign-up_form {
+        width: 100vw;
+    }
+    
+} 
 @media screen 
-  and (min-width: 20rem) 
-  and (max-width: 22rem)
+  and (max-width: 20rem) 
+  and (min-width: 22rem)
   and (min-height: 30rem)
   and (-webkit-min-device-pixel-ratio: 2) 
   {
     .contact_form_container .text_input {
         background: red;
     }
-    .sign-up_form {
-        display: flex;
-    }
+   
 }
 
 /* Portrait */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
+@media (min-width: 320rem)  {
+  /* Styling 3rd Page "CONTACT*/
+
+.contact_form {
+    height: 100vh;
+    background-image: linear-gradient(14deg, rgba(2, 0, 36, 0.377) 0%, rgba(9, 9, 121, 0.356) 6%, rgba(16,183,216,0.5) 100%), url("../images/hero-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.footer_fixed {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.contact_form_container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	background-color: var(--clr-primary-900);
+	padding: 2rem 0;
+	border-radius: var(--br);
+	box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.7);
+    width: 100vh;
+    z-index: 500;    
+}
+
+.sign-up_form {
+    display: grid;
+    grid-template-rows: repeat(7, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    width: max-content;
+    gap: .1rem;
+    
+}
+.contact_form_title {
+    grid-row: 1/2;
+    grid-column: 1/4;
+    text-align: center;
+    font-family: var(--ff-accent);
+}
+
+.contact_form_incentive {
+    grid-row: 2/3;
+    grid-column: 1/4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.label_hidden {
+    display: none;
+}
+
+.text_input {
+    padding: 2vh;
+    border: 1px solid var(--clr-primary-300);
+    background-color: var(--clr-primary-100);
+	border-radius: var(--br);
+	font-size: 1.1rem;
+    letter-spacing: .2rem;
+    width: 90%;
+}
+
+.text_input:focus {
+    outline: none;
+}
+
+.input_first_name {
+    grid-row: 3/4;
+    grid-column: 1/4;
+    text-align: center;
+    justify-content: center;
+}
+
+.input_last_name {
+    grid-row: 4/5;
+    grid-column: 1/4;
+    text-align: center;
+    justify-content: center;
+}
+
+.input_email {
+    grid-row: 5/6;
+    grid-column: 1/4;
+    text-align: center;
+    justify-content: center;
+}
+
+.adaption_donation {
+    grid-row: 6/7;
+    grid-column: 1/4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.form_checkbox {
+    width: .8rem;
+    height: .8rem;
+    margin: 0 .5rem;
+}
+
+.form_btn {
+    grid-row: 7/8;
+    grid-column: 1/4;
+    text-align: center;
+    justify-content: center;
+}
+
 }
 
 /* Landscape */
