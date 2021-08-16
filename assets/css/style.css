@@ -676,6 +676,55 @@ footer {
     .grid_gallery {
         grid-template-columns: repeat(3, minmax(10em, 1fr));
     }
+
+        /*Media for Contact page*/
+
+
+        .contact_form_container {
+            position: fixed; 
+        }
+        
+        .sign-up_form {
+            display: grid;
+            grid-template-rows: repeat(4, 1fr);
+            grid-template-columns: repeat(2, 1fr);
+            gap: .5em;
+        }
+
+        .contact_form_title {
+            grid-row: 1/2;
+            grid-column: 1/2;
+        }
+        
+        .contact_form_incentive {
+            grid-row: 2/3;
+            grid-column: 1/2;
+        }
+        
+        .input_first_name {
+            grid-row: 1/2;
+            grid-column: 2/3;
+        }
+        
+        .input_last_name {
+            grid-row: 2/3;
+            grid-column: 2/3;
+        }
+        
+        .input_email {
+            grid-row: 3/4;
+            grid-column: 2/3;
+        }
+        
+        .adaption_donation {
+            grid-row: 3/4;
+            grid-column: 1/2;
+        }
+
+        .form_btn {
+            grid-row: 4/5;
+            grid-column: 1/2;
+        }
 }
 
 
@@ -910,7 +959,7 @@ footer {
     .contact_form {
         min-height: 600px;
     }
-    
+
     .contact_form_container {
         position: absolute;
         padding: 1rem;   
