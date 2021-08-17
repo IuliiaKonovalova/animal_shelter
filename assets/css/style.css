@@ -136,7 +136,7 @@ header {
     text-decoration: none;
     color: var(--clr-nueteral-900);
     text-transform: uppercase;
-    font-size: 1.2gitrem;
+    font-size: 1.2rem;
     opacity: 0;
     transition: opacity 350ms ease-in-out;
 }
@@ -358,7 +358,7 @@ img {
 .call_to_action_text {
     padding: 4rem;
     text-align: center;
-    letter-spacing: .5;
+    letter-spacing: 0.5;
 }
 
 /*Styling Footer*/
@@ -371,7 +371,7 @@ footer {
     display: flex;
     justify-content: center;
     margin: 0;
-    padding: 0 auto;
+    padding: 0;
     list-style: none;
 }
 
@@ -1084,7 +1084,11 @@ footer {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(9em, 1fr));
         grid-auto-flow: dense;
-        gap: 1;
+        gap: 1rem;
+    }
+
+    .image_content {
+        padding: 1.5rem;
     }
 
         /* Styling 3rd Page "CONTACT*/
