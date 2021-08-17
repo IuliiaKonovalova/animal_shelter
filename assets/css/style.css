@@ -1064,28 +1064,35 @@ footer {
 /* ----------- iPhone ----------- */
 
 
-@media screen and (min-width: 22rem) and (max-width: 23.5rem){
+@media screen and (max-width: 23.5rem){
+
+        /*Media for logo*/
+    
+    .logo_container .logo{
+        font-size: 1rem;
+    }
+
+    
+        /*Media for Grid Gallery*/
+
+    .gallery_main {
+        background-image: linear-gradient(to bottom, #00a7dc, #00abdb, #00afdb, #00b3d9, #10b7d8);
+        width: 100vw;
+        margin: 0;
+    }
+    
+    .grid_gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(9em, 1fr));
+        grid-auto-flow: dense;
+        gap: 1;
+    }
+
+        /* Styling 3rd Page "CONTACT*/
 
     .sign-up_form {
         width: 100vw;
     }
-
-    
-       /*Media for Grid Gallery*/
-/* 
-       .gallery_main {
-        background-image: linear-gradient(to bottom, #00a7dc, #00abdb, #00afdb, #00b3d9, #10b7d8);
-        width: 100vw;
-        margin: 0;
-        padding:0;
-    }
-    
-    .grid_gallery {
-        display: flex;
-        grid-template-columns: repeat(auto-fit, minmax(5em, 1fr));
-        grid-auto-flow: dense;
-        gap: 0;
-    } */
 
 
 } 
