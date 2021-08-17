@@ -1074,14 +1074,21 @@ footer {
        .grid_gallery {
         grid-template-columns: repeat(2, minmax(2em, 1fr));
     }
-}
+
 } 
 
 
 /* ----------- Landscape ----------- */
 
 @media (orientation: landscape) {
-    /* Styling 3rd Page "CONTACT*/
+
+        /*Media for Grid Gallery*/
+
+    .grid_gallery {
+        grid-template-columns: repeat(2, minmax(8em, 1fr));
+    }
+
+        /* Styling 3rd Page "CONTACT*/
 
     .contact_form {
         min-height: 600px;
@@ -1091,9 +1098,5 @@ footer {
         position: absolute;
         padding: 1rem;   
     }
-        /*Media for Grid Gallery*/
 
-        .grid_gallery {
-            grid-template-columns: repeat(2, minmax(2em, 1fr));
-        }
 }
