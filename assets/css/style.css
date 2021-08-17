@@ -1069,6 +1069,12 @@ footer {
     .sign-up_form {
         width: 100vw;
     }
+       /*Media for Grid Gallery*/
+
+       .grid_gallery {
+        grid-template-columns: repeat(2, minmax(2em, 1fr));
+    }
+}
 } 
 
 
@@ -1085,4 +1091,9 @@ footer {
         position: absolute;
         padding: 1rem;   
     }
+        /*Media for Grid Gallery*/
+
+        .grid_gallery {
+            grid-template-columns: repeat(2, minmax(2em, 1fr));
+        }
 }
