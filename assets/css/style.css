@@ -1051,15 +1051,7 @@ footer {
         grid-column: 2/3;
     }
     
-    .input_last_name {        /* Styling 4th Page "RESPONSE*/
-
-        .response_text {
-            outline: 2px solid var(--clr-primary-100);
-        }
-    
-        .response_text p {
-            font-size: 1.4rem;
-        }
+    .input_last_name {
         grid-row: 4/5;
         grid-column: 2/3;
     }
@@ -1079,22 +1071,17 @@ footer {
         grid-column: 1/3;
         justify-self: center;
     }
+
     /* Styling 4th Page "RESPONSE*/
 
-
-.response_text {
-    /* background-color: red; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.response_text p {
-    font-size: 2rem;
-    margin: 2rem;
-    font-weight: bold;
-}
+    .response_text {
+        outline: 2px solid var(--clr-primary-100);
+    }
+        
+    .response_text p {
+        font-size: 1.4rem;
+        margin: 1rem;
+    }
 
 }
 
