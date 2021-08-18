@@ -788,30 +788,13 @@ footer {
 
         /* Styling 4th Page "RESPONSE*/
 
+    .response_text {
+        outline: 2px solid var(--clr-primary-100);
+    }
 
-.response_text {
-    outline: 2px solid var(--clr-primary-100);
-    border-radius: var(--br);
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 1rem 3rem;
-}
-
-.response_text p {
-    font-size: 1.3rem;
-    font-weight: bold;
-    letter-spacing: .1rem;
-    text-transform: uppercase;
-    color: var(--clr-primary-100);
-    text-align: center;
-}
-
-.response_text p:last-child {
-    margin-top: 1rem;
-}
+    .response_text p {
+        font-size: 1.4rem;
+    }
 
 }
 
@@ -1068,7 +1051,15 @@ footer {
         grid-column: 2/3;
     }
     
-    .input_last_name {
+    .input_last_name {        /* Styling 4th Page "RESPONSE*/
+
+        .response_text {
+            outline: 2px solid var(--clr-primary-100);
+        }
+    
+        .response_text p {
+            font-size: 1.4rem;
+        }
         grid-row: 4/5;
         grid-column: 2/3;
     }
