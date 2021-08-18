@@ -564,6 +564,18 @@ footer {
 }
 
 
+.response_text {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.response_text p {
+    color: orange;
+    font-size: 2rem;
+}
 
 
 /* ------ << MEDIA >> ------- */
