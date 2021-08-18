@@ -764,6 +764,7 @@ footer {
     .logo {
         display: flex;
         font-size: 2rem;
+        margin-left: 2vw;
     }
 
 
