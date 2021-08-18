@@ -564,18 +564,34 @@ footer {
 }
 
 
+/* Styling 4th Page "RESPONSE*/
+
+
 .response_text {
-    background-color: red;
+    outline: 1px solid var(--clr-primary-100);
+    border-radius: var(--br);
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 1rem 3rem;
 }
 
 .response_text p {
-    color: orange;
-    font-size: 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    color: var(--clr-primary-100);
+    text-align: center;
 }
+
+.response_text p:last-child {
+    margin-top: 1rem;
+}
+
+
 
 
 /* ------ << MEDIA >> ------- */
@@ -725,7 +741,32 @@ footer {
         grid-column: 2/3;
     }
         
-    .input_last_name {
+    .input_last_n/* Styling 4th Page "RESPONSE*/
+
+
+    .response_text {
+        outline: 1px solid var(--clr-primary-100);
+        border-radius: var(--br);
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem 3rem;
+    }
+    
+    .response_text p {
+        font-size: 1.2rem;
+        font-weight: bold;
+        letter-spacing: .1rem;
+        text-transform: uppercase;
+        color: var(--clr-primary-100);
+        text-align: center;
+    }
+    
+    .response_text p:last-child {
+        margin-top: 1rem;
+    }ame {
         grid-row: 2/3;
         grid-column: 2/3;
     }
@@ -744,6 +785,33 @@ footer {
         grid-row: 4/5;
         grid-column: 1/2;
     }
+
+        /* Styling 4th Page "RESPONSE*/
+
+
+.response_text {
+    outline: 2px solid var(--clr-primary-100);
+    border-radius: var(--br);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 3rem;
+}
+
+.response_text p {
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    color: var(--clr-primary-100);
+    text-align: center;
+}
+
+.response_text p:last-child {
+    margin-top: 1rem;
+}
 
 }
 
@@ -1020,6 +1088,22 @@ footer {
         grid-column: 1/3;
         justify-self: center;
     }
+    /* Styling 4th Page "RESPONSE*/
+
+
+.response_text {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.response_text p {
+    font-size: 2rem;
+    margin: 2rem;
+    font-weight: bold;
+}
 
 }
 
