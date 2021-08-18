@@ -358,7 +358,7 @@ img {
 .call_to_action_text {
     padding: 4rem;
     text-align: center;
-    letter-spacing: 0.5;
+    letter-spacing: 0.1rem;
 }
 
 /*Styling Footer*/
