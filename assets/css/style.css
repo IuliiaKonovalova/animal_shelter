@@ -949,7 +949,7 @@ footer {
 
     .label_hidden {
         all: unset;
-        letter-spacing: .2rem;
+        letter-spacing: .05rem;
     }
     
     .label_first_name {
@@ -1149,6 +1149,8 @@ footer {
     .logo_container .logo{
         font-size: 1rem;
     }
+
+    /*Media for testimonials*/
 
     .testimonials_title {
         font-size: 1.5em;
