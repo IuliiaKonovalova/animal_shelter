@@ -11,3 +11,5 @@
 # Animal Shelter
 
 The Animal Shelter website allows people to learn about the company "Animal Shelter" and find information about animals living in this shelter. The visitors of the website could quickly contact the company about adapting animals as well as making a donation.
+
+![Responsive Mockup](assets/images/responsive_mockup.png)
