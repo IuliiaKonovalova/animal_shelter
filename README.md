@@ -110,3 +110,33 @@ The Animal Shelter website allows people to learn about the company "Animal Shel
     - Is also has a button that directs to the contact page.
 ​
     ![Call to Action Section](assets/images/call_to_action.png)
+
+
+---
++ ##### Footer
+
+    - Footer contains social media links that open in a new tab.
+​
+    ![Footer](assets/images/footer.png)
+​
+---
++ ### Gallery Page
+
+    - Gallery page has a hero image and an introduction message for the visitors that contains an incentive to contact the company.
+
+    - It has a button right after the introduction message that leads to the contact form page.
+
+    - It has photos of the animals that a present in the Animal Shelter in real-time.
+
+        - The gallery is responsive: the size of the photo depends on the user's screen.
+        - Each image has a description of the animal that appears on hover.
+        - descriptional information contains the name of the animal and its characteristics.
+
+    - It has a call to action section below the gallery with the incentivizing message and the button that leads to the contact form.
+
+    - It has a footer identical to the home page's footer.
+    
+​
+    ![Tour page](assets/images/gallery_page.png)
+
+
