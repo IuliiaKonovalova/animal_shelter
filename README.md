@@ -32,19 +32,15 @@ The Animal Shelter website allows people to learn about the company "Animal Shel
 
     - The navigation bar is responsive:
         * On tablets: navigation bar is split into to lines: the first line filled with the logo and the second line filled with links. All elements are centered.
-    ![NavBar Tablets](assets/images/navbar_tablets.png)
+        ![NavBar Tablets](assets/images/navbar_tablets.png)
 
-        * On mobile devices: navigation bar filled with the logo in the center and a hamburger menu implemented on the left side of the navigation bar.      
-    ![NavBar Mobile Closed](assets/images/navbar_mobile_closed.png)
+        * On mobile devices: 
+            - navigation bar filled with the logo in the center and a hamburger menu implemented on the left side of the navigation bar.      
+            ![NavBar Mobile Closed](assets/images/navbar_mobile_closed.png)
         
-        When the hamburger menu is clicked, there is dropdown menu with the links in the same order.
-    ![NavBar Mobile Open](assets/images/navbar_mobile_open.png)
+            - When the hamburger menu is clicked, there is dropdown menu with the links in the same order.
+            ![NavBar Mobile Open](assets/images/navbar_mobile_open.png)
 
 
 
 ---
-## Testing
-
-+ I tested that the website works in different browsers: Chrome, Firefox, Brave.
-+ I used devtools and [Responsive Website Design Tester](https://responsivedesignchecker.com/) to confirm that the website is responsive, looks and functions as it supposed to on all standard screen sizes.
-+ I tested all the links and confirmed that all of them work and lead where they suppose to lead.
