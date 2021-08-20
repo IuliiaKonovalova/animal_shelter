@@ -73,3 +73,15 @@ The Animal Shelter website allows people to learn about the company "Animal Shel
     ![Hero Section](assets/images/hero_section.png)
 
 --- 
+
+---    
++ ##### Highlights Section
+
+    - Hightlight Section has 4 cards with strong descriptive characteristics of the company.
+
+    - Tells website visitors how well animals are in the Animal Shelter.
+
+    - Attracts viewers to use this company for animal adaption.
+
+    
+    ![Highlights Section](assets/images/main_cons.png)
