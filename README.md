@@ -85,3 +85,18 @@ The Animal Shelter website allows people to learn about the company "Animal Shel
 
     
     ![Highlights Section](assets/images/main_cons.png)
+
+
+    ---
++ ##### Testimonials Section
+
+    - Testimonials Sectionhas three feedbacks from people who were satisfied with the company's service.
+
+    - Each card has a picture of an animal with its owner.
+
+    - Each card has a story from the people who had an experience of using the Animal Shelter.
+
+    - Each card has a name of the pet's owner.
+
+​
+    ![Testimonials Section](assets/images/testimonials.png)
