@@ -1,5 +1,6 @@
 ![Animal Shelter logo](assets/images/animal_shelter_logo.png)
 
+---
 
 <center>
 
@@ -39,5 +40,11 @@ The Animal Shelter website allows people to learn about the company "Animal Shel
         When the hamburger menu is clicked, there is dropdown menu with the links in the same order.
     ![NavBar Mobile Open](assets/images/navbar_mobile_open.png)
 
+
+
 ---
-​
+## Testing
+
++ I tested that the website works in different browsers: Chrome, Firefox, Brave.
++ I used devtools and [Responsive Website Design Tester](https://responsivedesignchecker.com/) to confirm that the website is responsive, looks and functions as it supposed to on all standard screen sizes.
++ I tested all the links and confirmed that all of them work and lead where they suppose to lead.
