@@ -160,3 +160,12 @@ The Animal Shelter website allows people to learn about the company "Animal Shel
     - The submit button leads to the response page.
 ​
     ![Contact page](assets/images/contact_form_page.png)
+
+
+---
++ ### Response page
+
+    - Response page appears after submitting the contact form.
+    - It contains the thank you message and the promise to get in touch with the applicant within 24 hours.
+
+    ![Response page](assets/images/response_page.png)
