@@ -58,3 +58,18 @@ The Animal Shelter website allows people to learn about the company "Animal Shel
     ![Home Page](assets/images/home_page.png)
 
 ---
+
++ ##### Hero Section
+
+    - Hero section have a fixed background image.
+
+    - Hero section have the block section below the image that consist:
+
+        * The name of the company.
+        * Short description of the company's philosophy.
+        * Contact button that leads directly to the contact page.
+
+    
+    ![Hero Section](assets/images/hero_section.png)
+
+--- 
