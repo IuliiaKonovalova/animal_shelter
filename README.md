@@ -140,3 +140,23 @@ The Animal Shelter website allows people to learn about the company "Animal Shel
     ![Tour page](assets/images/gallery_page.png)
 
 
+---
++ ### Contact page
+
+    - Contact page has a contact form:
+
+        - All text input fields are customized.
+        - Labels are animated when the input field is in focus and are not empty.
+        - All inputs are set to be required to fill out.
+        - It has to checkboxes for the visitors to fill voluntary:
+
+            - The 1st is - ADAP, which helps the company to understand the motive of the visitor.
+            - The 2nd is - DONATE, which motivates users to consider financial support for the company. 
+
+        - The submit button is animated on hover.
+
+    - The page is responsive on all common screen sizes.
+
+    - The submit button leads to the response page.
+​
+    ![Contact page](assets/images/contact_form_page.png)
