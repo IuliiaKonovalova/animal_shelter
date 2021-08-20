@@ -100,3 +100,13 @@ The Animal Shelter website allows people to learn about the company "Animal Shel
 
 ​
     ![Testimonials Section](assets/images/testimonials.png)
+
+
+---
++ ##### Call to Action Section
+
+    - Call to Action Section has an explicit message for the visitors of the website to contact the company.
+
+    - Is also has a button that directs to the contact page.
+​
+    ![Call to Action Section](assets/images/call_to_action.png)
