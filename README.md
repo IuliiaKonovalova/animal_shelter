@@ -44,3 +44,17 @@ The Animal Shelter website allows people to learn about the company "Animal Shel
 
 
 ---
+
++ ### Home Page
+
+    - Represent: 
+
+        * the main idea of the company.
+        * Emphasize the strong points of the company.
+        * Shows feedback from satisfied clients.
+        * Invites to fill out the contact form.
+
+
+    ![Home Page](assets/images/home_page.png)
+
+---
