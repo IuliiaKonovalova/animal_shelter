@@ -237,3 +237,18 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 ## Deployment
 + The website was deployed to GitHub pages and can be accessed by the link: [Animal Shelter](https://iuliiakonovalova.github.io/animal_shelter/).
 
+---
+## Credits
+
++ #### Content
+
+    - Inspiration for the gallery hover effect came from the article "How to add a gradient to overlay to a background image using just CSS and HTML" published the website [Web Dev etc](https://webdevetc.com).
+    - Inspiration for the responsive hamburger navbar came from [Kevin Powell](https://www.youtube.com/user/KepowOb) on his YouTube channel.
+    - The content was checked by my dear friend Zulya.
+
++ #### Media
+
+    - All the images for the website were taken from [Unsplash](https://unsplash.com/).
+    - All images were compressed by using the website [Compress JPEG](https://compressjpeg.com/).
+    - All images for the gallery were resized by using the website [IMGonline.com.ua](https://www.imgonline.com.ua/eng/resize-image.php).
+    - Images for the README file were made with [GIMP](https://www.gimp.org/).
