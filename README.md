@@ -257,7 +257,7 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 ---
 ## Wireframes
 
-+ Mobile devices
+### Mobile devices
 
 ![Home Page. Mobile Screen](assets/images/mobile_home_page.png)
 ![Gallery Page. Mobile Screen](assets/images/mobile_gallery_page.png)
@@ -265,14 +265,14 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 ![Response Page. Mobile Screen](assets/images/mobile_response_page.png)
 
 
-+ Tablets
+### Tablets
 
 ![Home Page. Tablet Screen](assets/images/tablet_home_page.png)
 ![Gallery Page. Tablet Screen](assets/images/tablet_gallery_page.png)
 ![Contact Page. Tablet Screen](assets/images/tablet_contact_form_page.png)
 ![Response Page. Tablet Screen](assets/images/tablet_response_page.png)
 
-+ Desktop
+### Desktop
 
 ![Home Page. Desktop Screen](assets/images/desktop_home_page.png)
 ![Gallery Page. Desktop Screen](assets/images/desktop_gallery_page.png)
