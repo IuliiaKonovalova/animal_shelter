@@ -251,7 +251,7 @@ In order to confirm the correct functionality, responsiveness, and appearance:
     - All the images for the website were taken from [Unsplash](https://unsplash.com/).
     - All images were compressed by using the website [Compress JPEG](https://compressjpeg.com/).
     - All images for the gallery were resized by using the website [IMGonline.com.ua](https://www.imgonline.com.ua/eng/resize-image.php).
-    - Images for the README file were made with [GIMP](https://www.gimp.org/).
+    - Images for the README file were made or edited with [GIMP](https://www.gimp.org/).
 
 
 ---
