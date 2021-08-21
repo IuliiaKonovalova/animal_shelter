@@ -193,3 +193,13 @@ The Animal Shelter website allows people to learn about the company "Animal Shel
  
 
 ---
+
+## Testing
+
+In order to confirm the correct functionality, responsiveness, and appearance:
+
++ The website was tasted on the following browsers: Chrome, Firefox, Brave.
++ The website was checked by devtools implemented in Firefox and Chrome browsers.
++ The website was checked with [Responsive Website Design Tester](https://responsivedesignchecker.com/).
++ The functionality of the links in the website was checked as well by different users.
+​
