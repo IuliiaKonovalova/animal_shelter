@@ -232,3 +232,8 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 + ##### Accessibility and performance 
     - Using lighthouse in devtools I confirmed that the website is performing well, accessible and colors and fonts chosen are readable.
     ![Performance score](assets/images/performance.png)
+
+---
+## Deployment
++ The website was deployed to GitHub pages and can be accessed by the link: [Animal Shelter](https://iuliiakonovalova.github.io/animal_shelter/).
+
