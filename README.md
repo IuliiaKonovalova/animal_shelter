@@ -11,7 +11,7 @@
 
 # *Animal Shelter*
 
-The Animal Shelter website allows people to learn about the company "Animal Shelter" and find information about animals living in this shelter. The visitors of the website could quickly contact the company about adapting animals as well as making a donation.
+The Animal Shelter website allows people to learn about the company "Animal Shelter" and find information about animals living in this shelter. The visitors of the website could quickly contact the company about adopting animals as well as making a donation.
 
 ![Responsive Mockup](assets/images/responsive_mockup.png)
 
@@ -81,7 +81,7 @@ The Animal Shelter website allows people to learn about the company "Animal Shel
 
     - Tells website visitors how well animals are in the Animal Shelter.
 
-    - Attracts viewers to use this company for animal adaption.
+    - Attracts viewers to use this company for animal adoption.
 
     
     ![Highlights Section](assets/images/main_cons.png)
@@ -188,7 +188,7 @@ The Animal Shelter website allows people to learn about the company "Animal Shel
 * As a Returning Visitor, I want to find community links, so that I can learn more about the organization.
 
 ### Frequent Visitor Goals:
-* As a Frequent User, I want to check whether there are any changes with available animals, so I can make a choice which animal to adapt.
+* As a Frequent User, I want to check whether there are any changes with available animals, so I can make a choice which animal to adopt.
 * As a Frequent User, I want to have options for the reason to contact the company, so I can get an explicit answer to my email. 
 
 ---
