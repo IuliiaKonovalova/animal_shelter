@@ -206,17 +206,17 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 ​
 ### Bugs
 + ##### Solved bugs
-    1. The testimonials pictures were having a square shape in Brave brawser on mobile phone when the border radious had been set to 50%. It was due to the outline properties setttings insted of the border
+    1. The testimonials pictures had a square shape in Brave browser on a mobile phone when the border radius had been set to 50%. It was due to the outline properties settings instead of the border
     
         *Solutions:* Outline was replaced with border properties.
     
-    1. The gallery image descriptions were appearing not on the picture when hovering it as the position of the the .image_content was set to fixed.
+    1. The gallery image descriptions were not appearing on the picture when hovering it as the position of the .image_content was set to fixed.
         
         *Solution:* The .image_content position was set to absolute, with the top: 0, left: 0, and added padding on the .image_content. 
 
-    1. Footer on the contact page was reducing the size of the screen and shrinked the contact form as the height of the background image was set to calc(100vh-the size of the footer)
+    1. Footer on the contact page was reducing the size of the screen and shrank the contact form as the height of the background image was set to calc(100vh-the size of the footer)
         
-        *Solution:* The hight of the image was set to 100hv and the display of the footer was set to fixed.
+        *Solution:* The height of the image was set to 100hv, and the display of the footer was set to fixed.
     ---
 + ##### Unsolved bugs
     - None.
