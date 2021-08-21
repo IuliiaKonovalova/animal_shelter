@@ -15,6 +15,27 @@ The Animal Shelter website allows people to learn about the company "Animal Shel
 
 ![Responsive Mockup](assets/images/responsive_mockup.png)
 
+
+---
+## User Stories
+
+### First Time Visitor Goals:
+
+* As a First Time Visitor, I want to easily understand the main purpose of the site, so I can learn more about the organization.
+* As a First Time Visitor, I want to be able to easily navigate through the website, so I can find the content.
+* As a First Time Visitor, I want to see the testimonials, so I can see whether the organization is trustworthy.
+
+### Reterning VisitorGoals:
+
+* As a Returning Visitor, I want to see various pets, so that I can pick from.
+* As a Returning Visitor, I want to see information about animals, so that I can learn about each animal and make a prudent decision.
+* As a Returning Visitor, I want to find a way to get in contact with the organization, so that I can ask additional questions or send a request about a particular animal.
+* As a Returning Visitor, I want to find community links, so that I can learn more about the organization.
+
+### Frequent Visitor Goals:
+* As a Frequent User, I want to check whether there are any changes with available animals, so I can make a choice which animal to adopt.
+* As a Frequent User, I want to have options for the reason to contact the company, so I can get an explicit answer to my email. 
+
 ## Features
 
 + ### Navbar
@@ -150,7 +171,7 @@ The Animal Shelter website allows people to learn about the company "Animal Shel
         - All inputs are set to be required to fill out.
         - It has to checkboxes for the visitors to fill voluntary:
 
-            - The 1st is - ADAP, which helps the company to understand the motive of the visitor.
+            - The 1st is - ADAPT, which helps the company to understand the motive of the visitor.
             - The 2nd is - DONATE, which motivates users to consider financial support for the company. 
 
         - The submit button is animated on hover.
@@ -169,27 +190,6 @@ The Animal Shelter website allows people to learn about the company "Animal Shel
     - It contains the thank you message and the promise to get in touch with the applicant within 24 hours.
 
     ![Response page](assets/images/response_page.png)
-
-
----
-## User Stories
-
-### First Time Visitor Goals:
-
-* As a First Time Visitor, I want to easily understand the main purpose of the site, so I can learn more about the organization.
-* As a First Time Visitor, I want to be able to easily navigate through the website, so I can find the content.
-* As a First Time Visitor, I want to see the testimonials, so I can see whether the organization is trustworthy.
-
-### Reterning VisitorGoals:
-
-* As a Returning Visitor, I want to see various pets, so that I can pick from.
-* As a Returning Visitor, I want to see information about animals, so that I can learn about each animal and make a prudent decision.
-* As a Returning Visitor, I want to find a way to get in contact with the organization, so that I can ask additional questions or send a request about a particular animal.
-* As a Returning Visitor, I want to find community links, so that I can learn more about the organization.
-
-### Frequent Visitor Goals:
-* As a Frequent User, I want to check whether there are any changes with available animals, so I can make a choice which animal to adopt.
-* As a Frequent User, I want to have options for the reason to contact the company, so I can get an explicit answer to my email. 
 
 ---
 
