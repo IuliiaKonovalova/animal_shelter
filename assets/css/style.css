@@ -634,9 +634,6 @@ footer {
         margin-top: 0;
         padding: 0;
     }
-    /* .nav_menu li:last-child {
-        margin-right: 0;
-    } */
 
     .nav_menu ul:first-child {
         margin-top: 0;
@@ -741,7 +738,35 @@ footer {
         grid-column: 2/3;
     }
         
-    .input_last_n/* Styling 4th Page "RESPONSE*/
+    .input_last_name {
+        grid-row: 2/3;
+        grid-column: 2/3;
+    }
+    
+    .input_email {
+        grid-row: 3/4;
+        grid-column: 2/3;
+    }
+
+    .adoption_donation {
+        grid-row: 3/4;
+        grid-column: 1/2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+        font-size: 1rem;
+    }
+    
+    .form_btn {
+        grid-row: 4/5;
+        grid-column: 1/2;
+        justify-self: center;
+    }
+
+
+    
+    /* Styling 4th Page "RESPONSE*/
 
 
     .response_text {
@@ -1204,6 +1229,10 @@ footer {
     .contact_form_container {
         position: absolute;
         padding: 1rem;   
+    }
+
+    .footer_fixed {
+        position: relative;
     }
 
 }
