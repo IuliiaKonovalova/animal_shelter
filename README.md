@@ -190,7 +190,6 @@ The Animal Shelter website allows people to learn about the company "Animal Shel
 ### Frequent Visitor Goals:
 * As a Frequent User, I want to check whether there are any changes with available animals, so I can make a choice which animal to adapt.
 * As a Frequent User, I want to have options for the reason to contact the company, so I can get an explicit answer to my email. 
- 
 
 ---
 
@@ -202,4 +201,24 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 + The website was checked by devtools implemented in Firefox and Chrome browsers.
 + The website was checked with [Responsive Website Design Tester](https://responsivedesignchecker.com/).
 + The functionality of the links in the website was checked as well by different users.
+
+---
 ​
+### Bugs
++ ##### Solved bugs
+    1. The testimonials pictures were having a square shape in Brave brawser on mobile phone when the border radious had been set to 50%. It was due to the outline properties setttings insted of the border
+    
+        *Solutions:* Outline was replaced with border properties.
+    
+    1. The gallery image descriptions were appearing not on the picture when hovering it as the position of the the .image_content was set to fixed.
+        
+        *Solution:* The .image_content position was set to absolute, with the top: 0, left: 0, and added padding on the .image_content. 
+
+    1. Footer on the contact page was reducing the size of the screen and shrinked the contact form as the height of the background image was set to calc(100vh-the size of the footer)
+        
+        *Solution:* The hight of the image was set to 100hv and the display of the footer was set to fixed.
+    ---
++ ##### Unsolved bugs
+    - None.
+
+---
