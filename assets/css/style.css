@@ -541,7 +541,7 @@ footer {
     justify-self: center;
 }
 
-.adaption_donation {
+.adoption_donation {
     grid-row: 6/7;
     grid-column: 1/3;
     display: flex;
@@ -778,7 +778,7 @@ footer {
         grid-column: 2/3;
     }
         
-    .adaption_donation {
+    .adoption_donation {
         grid-row: 3/4;
         grid-column: 1/2;
     }
@@ -982,7 +982,7 @@ footer {
         grid-row: 3/4;
     }
     
-    .adaption_donation {
+    .adoption_donation {
         grid-column: 2/4;
         grid-row: 4/5;
     }
@@ -1063,7 +1063,7 @@ footer {
         grid-column: 2/3;
     }
     
-    .adaption_donation {
+    .adoption_donation {
         grid-row: 6/7;
         grid-column: 2/3;
     }
@@ -1126,7 +1126,7 @@ footer {
         grid-column: 1/3;
     }
 
-    .adaption_donation {
+    .adoption_donation {
         grid-row: 6/7;
         grid-column: 1/3;
     }

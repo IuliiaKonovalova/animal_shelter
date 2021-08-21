@@ -25,7 +25,7 @@ The Animal Shelter website allows people to learn about the company "Animal Shel
 * As a First Time Visitor, I want to be able to easily navigate through the website, so I can find the content.
 * As a First Time Visitor, I want to see the testimonials, so I can see whether the organization is trustworthy.
 
-### Reterning VisitorGoals:
+### Returning VisitorGoals:
 
 * As a Returning Visitor, I want to see various pets, so that I can pick from.
 * As a Returning Visitor, I want to see information about animals, so that I can learn about each animal and make a prudent decision.
