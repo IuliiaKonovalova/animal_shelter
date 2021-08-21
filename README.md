@@ -222,3 +222,13 @@ In order to confirm the correct functionality, responsiveness, and appearance:
     - None.
 
 ---
+## Validator testing
++ ##### HTML
+    - No errors or warnings were found when passing through the official W3C validator.
+    
++ ##### CSS
+    - No errors or warnings were found when passing through the official W3C (Jigsaw) validator except the warnings that all: unset properties do not exist.
+
++ ##### Accessibility and performance 
+    - Using lighthouse in devtools I confirmed that the website is performing well, accessible and colors and fonts chosen are readable.
+    ![Performance score](assets/images/performance.png)
