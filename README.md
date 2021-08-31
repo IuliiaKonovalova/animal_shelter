@@ -13,6 +13,8 @@
 
 The Animal Shelter website allows people to learn about the company "Animal Shelter" and find information about animals living in this shelter. The visitors of the website could quickly contact the company about adopting animals as well as making a donation.
 
+The site can be accessed by this [link](https://iuliiakonovalova.github.io/animal_shelter/)
+
 ![Responsive Mockup](assets/images/responsive_mockup.png)
 
 
