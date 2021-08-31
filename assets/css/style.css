@@ -13,6 +13,9 @@
      --br: 0.5em;
 }
 
+
+/* ----- << Global Settings >> -----*/
+
 *,
 *::before,
 *::after {
@@ -34,7 +37,9 @@ body {
      display: grid;
 }
 
-/*Header Styling*/
+/*----- << Home Page Styling >>----- */
+
+/* Header Styling */
 
 header {
      background: var(--clr-primary-900);
@@ -45,7 +50,7 @@ header {
      letter-spacing: 0.4rem;
 }
 
-/*Styling Logo*/
+/* Logo Styling */
 
 .logo {
      font-family: var(--ff-accent);
@@ -59,7 +64,7 @@ header {
      color: var(--clr-accent-900);
 }
 
-/*Styling hamburger*/
+/*Hamburger Styling*/
 
 .nav-toggle {
      display: none;
@@ -100,7 +105,7 @@ header {
      top: 0.7rem;
 }
 
-/*Styling menu*/
+/* Menu Styling u*/
 
 .nav_menu {
      position: absolute;
@@ -138,7 +143,7 @@ header {
      transition: opacity 350ms ease-in-out;
 }
 
-/*Styling menu Icons*/
+/* Menu Icons Styling */
 
 .nav_icon {
      display: inline-block;
@@ -163,14 +168,15 @@ img {
      display: block;
      width: 100%;
 }
-/*Section Hero*/
+
+/* Hero Section */
 
 .hero_main {
      width: auto;
      background-color: var(--clr-primary-900);
 }
 
-/*Styling image*/
+/* Hero-image Styling */
 
 .hero_image {
      height: 50vh;
@@ -188,7 +194,7 @@ img {
      background-attachment: fixed;
 }
 
-/*Styling text in the hero section*/
+/* Styling Text in the Hero section */
 
 .hero_text {
      display: flex;
@@ -210,7 +216,7 @@ img {
      /* font-size: 1rem; */
 }
 
-/*Styling buttons*/
+/*Styling Buttons*/
 
 .btn_section a {
      text-decoration: none;
@@ -239,7 +245,7 @@ img {
      background: linear-gradient(to top, #a30dbdb7 5%, #9510d8 100%);
 }
 
-/*Styling main_cons section*/
+/*Styling Main_cons section*/
 
 .main_cons {
      background: var(--clr-primary-100);
@@ -280,7 +286,7 @@ img {
      margin-top: 0.5rem;
 }
 
-/*Styling Testimonial Section*/
+/* Testimonial Section Styling */
 
 .testimonial {
      display: flex;
@@ -338,7 +344,7 @@ img {
      padding: 1rem;
 }
 
-/*Styling Call to action section*/
+/* Call to Action section Styling */
 
 .call_to_action {
      background: var(--clr-primary-300);
@@ -379,7 +385,8 @@ footer {
      font-size: 2rem;
 }
 
-/* Styling 2nd Page "GALLERY*/
+/*----- << Styling 2nd Page "GALLERY >>----- */
+
 
 .gallery_main {
      background-image: linear-gradient(
@@ -455,7 +462,8 @@ footer {
      padding-bottom: 1rem;
 }
 
-/* Styling 3rd Page "CONTACT*/
+/*----- << Styling 3rd Page "CONTACT >>----- */
+
 
 .contact_form {
      height: 100vh;
@@ -569,7 +577,9 @@ footer {
      justify-self: center;
 }
 
-/* Styling 4th Page "RESPONSE*/
+
+/*----- << Styling 4th Page "RESPONSE* >>----- */
+
 
 .response_text {
      outline: 1px solid var(--clr-primary-100);
@@ -595,9 +605,14 @@ footer {
      margin-top: 1rem;
 }
 
+
+
 /* ------ << MEDIA >> ------- */
 
+/* MEDIA for Tablets*/
+
 @media screen and (min-width: 50rem) {
+
      /*Media for Navbar*/
 
      .nav-toggle-label {
@@ -762,32 +777,6 @@ footer {
           justify-self: center;
      }
 
-     /* Styling 4th Page "RESPONSE*/
-
-     .response_text {
-          outline: 1px solid var(--clr-primary-100);
-          border-radius: var(--br);
-          padding: 1rem;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          margin: 1rem 3rem;
-     }
-
-     .response_text p {
-          font-size: 1.2rem;
-          font-weight: bold;
-          letter-spacing: 0.1rem;
-          text-transform: uppercase;
-          color: var(--clr-primary-100);
-          text-align: center;
-     }
-
-     .response_text p:last-child {
-          margin-top: 1rem;
-     }
-
      .input_last_name {
           grid-row: 2/3;
           grid-column: 2/3;
@@ -818,6 +807,8 @@ footer {
           font-size: 1.4rem;
      }
 }
+
+/*Media for desktop screens*/
 
 @media screen and (min-width: 95rem) {
      /*Media for Navbar*/
@@ -1098,7 +1089,7 @@ footer {
      }
 }
 
-/* ----------- Tablets ----------- */
+/* ----------- Small height screens ----------- */
 
 
 @media screen and (min-width: 50rem) and (max-height: 60rem) {
@@ -1238,7 +1229,7 @@ footer {
           padding: 1.5rem;
      }
 
-     /* Styling 3rd Page "CONTACT*/
+     /* Media 3rd Page "CONTACT*/
 
      .sign-up_form {
           width: 100vw;
@@ -1254,7 +1245,7 @@ footer {
           grid-template-columns: repeat(2, minmax(8em, 1fr));
      }
 
-     /* Styling 3rd Page "CONTACT*/
+     /* Media 3rd Page "CONTACT*/
 
      .contact_form {
           min-height: 600px;
