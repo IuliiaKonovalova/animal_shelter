@@ -461,7 +461,6 @@ footer {
 .contact__page {
      min-height: 100vh;
      display: grid;
-     grid-template-columns: 1fr;
      grid-template-rows: 0.3fr 4fr 0.5fr;
      background-image: linear-gradient(14deg,
                rgba(2, 0, 36, 0.377) 0%,
@@ -471,10 +470,10 @@ footer {
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center center;
-     margin: 0;
+     gap: 0;
+     /* margin: 0;
      padding: 0;
-     box-sizing: border-box;
-     /* width: 100%; */
+     box-sizing: border-box; */
 }
 
 .contact__page .nav_container {
@@ -739,12 +738,12 @@ footer {
      }
 
      /*Media for Contact page*/
-
      .contact__page {
           min-height: 100vh;
-          display: grid;
-          grid-template-columns: 1fr;
-          grid-template-rows: 0.3fr 6fr 0.5fr;
+     }
+
+     .contact__page {
+          grid-template-rows: 0.9fr 6fr 0.5fr;
      }
 
      .contact_form_container {
@@ -966,66 +965,9 @@ footer {
      }
 
      /*Media for Contact form*/
-     .form_grid {
-          display: grid;
-          grid-template-columns: repeat(3, 1fr);
-          grid-template-rows: repeat(4, 1fr);
-          gap: 3rem;
-     }
-
-     .label_hidden {
-          all: unset;
-          letter-spacing: 0.05rem;
-     }
-
-     .label_first_name {
-          grid-column: 1/2;
-          grid-row: 1/2;
-     }
-
-     .input_first_name {
-          grid-column: 2/4;
-          grid-row: 1/2;
-     }
-
-     .label_last_name {
-          grid-column: 1/2;
-          grid-row: 2/3;
-     }
-
-     .input_last_name {
-          grid-column: 2/4;
-          grid-row: 2/3;
-     }
-
-     .label_email {
-          grid-column: 1/2;
-          grid-row: 3/4;
-     }
-
-     .input_email {
-          grid-column: 2/4;
-          grid-row: 3/4;
-     }
-
-     .adoption_donation {
-          grid-column: 2/4;
-          grid-row: 4/5;
-     }
-
-     .contact_issue {
-          font-size: 1.2rem;
-     }
-
-     .form_checkbox {
-          width: 1.2rem;
-          height: 1.2rem;
-     }
-
-     /*Media for contact form*/
 
      .sign-up_form {
-          margin: 2rem;
+          margin: 2rem 1rem 1rem 0;
      }
 
      .contact_form_title {
@@ -1062,6 +1004,20 @@ footer {
      .label_email {
           grid-row: 5/6;
           grid-column: 1/2;
+     }
+
+     .adoption_donation {
+          grid-column: 2/4;
+          grid-row: 4/5;
+     }
+
+     .contact_issue {
+          font-size: 1.2rem;
+     }
+
+     .form_checkbox {
+          width: 1.2rem;
+          height: 1.2rem;
      }
 
      .text_input {
@@ -1119,14 +1075,7 @@ footer {
      /*Media for Contact page*/
 
      .contact__page {
-          min-height: 100vh;
-          display: grid;
-          grid-template-columns: 1fr;
-          grid-template-rows: 0.3fr 8fr 0.5fr;
-     }
-
-     .contact_form_container {
-          border-radius: 0.7em;
+          grid-template-rows: 0.3fr 5fr 0.5fr;
      }
 
      .sign-up_form {
@@ -1193,11 +1142,6 @@ footer {
           align-self: center;
           margin: 0;
      }
-
-
-
-
-
 }
 
 
@@ -1239,12 +1183,6 @@ footer {
      .image_content {
           padding: 1.5rem;
      }
-
-     /* Media 3rd Page "CONTACT*/
-
-     .contact_form_container {
-          /* padding: 1rem 0.5rem; */
-     }
 }
 
 /* ----------- Landscape ----------- */
@@ -1254,20 +1192,5 @@ footer {
 
      .grid_gallery {
           grid-template-columns: repeat(2, minmax(8em, 1fr));
-     }
-
-     /* Media 3rd Page "CONTACT*/
-
-     .contact_form {
-          /* min-height: 600px; */
-     }
-
-     .contact_form_container {
-          /* position: absolute;
-          padding: 1rem; */
-     }
-
-     .footer_fixed {
-          /* position: relative; */
      }
 }
