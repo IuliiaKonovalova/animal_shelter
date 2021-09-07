@@ -824,14 +824,14 @@ footer {
           padding: 1rem 1.3rem
      }
 
-     /* Styling 4th Page "RESPONSE*/
+     /* Media 4th Page "RESPONSE*/
 
      .response_text {
-          outline: 2px solid var(--clr-primary-100);
+          border: 2px solid var(--clr-primary-100);
      }
 
      .response_text p {
-          font-size: 1.4rem;
+          font-size: 1.7rem;
      }
 }
 
@@ -1061,12 +1061,12 @@ footer {
      /* Styling 4th Page "RESPONSE*/
 
      .response_text {
-          outline: 2px solid var(--clr-primary-100);
+          border: 2px solid var(--clr-primary-100);
      }
 
      .response_text p {
-          font-size: 1.4rem;
-          margin: 1rem;
+          font-size: 2rem;
+          margin: 2rem;
      }
 }
 
