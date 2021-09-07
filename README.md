@@ -1,4 +1,4 @@
-![Animal Shelter logo](assets/images/animal_shelter_logo.png)
+![Animal Shelter logo](documentation/animal_shelter_logo.png)
 
 ---
 
@@ -15,7 +15,7 @@ The Animal Shelter website allows people to learn about the company "Animal Shel
 
 The site can be accessed by this [link](https://iuliiakonovalova.github.io/animal_shelter/)
 
-![Responsive Mockup](assets/images/responsive_mockup.png)
+![Responsive Mockup](documentation/responsive_mockup.png)
 
 
 ---
@@ -51,18 +51,18 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/anima
         * CONTACT - leads to the contact form page where users can fill out the form in order to get in touch with the company.
     - The links have animated hover effect.
     - The navigation is clear and easy to understand for the user.
-    ![NavBar desktop](assets/images/navbar_desktop.png)
+    ![NavBar desktop](documentation/navbar_desktop.png)
 
     - The navigation bar is responsive:
         * On tablets: navigation bar is split into to lines: the first line filled with the logo and the second line filled with links. All elements are centered.
-        ![NavBar Tablets](assets/images/navbar_tablets.png)
+        ![NavBar Tablets](documentation/navbar_tablets.png)
 
         * On mobile devices: 
             - navigation bar filled with the logo in the center and a hamburger menu implemented on the left side of the navigation bar.      
-            ![NavBar Mobile Closed](assets/images/navbar_mobile_closed.png)
+            ![NavBar Mobile Closed](documentation/navbar_mobile_closed.png)
         
             - When the hamburger menu is clicked, there is dropdown menu with the links in the same order.
-            ![NavBar Mobile Open](assets/images/navbar_mobile_open.png)
+            ![NavBar Mobile Open](documentation/navbar_mobile_open.png)
 
 
 
@@ -78,7 +78,7 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/anima
         * Invites to fill out the contact form.
 
 
-    ![Home Page](assets/images/home_page.png)
+    ![Home Page](documentation/home_page.png)
 
 ---
 
@@ -93,7 +93,7 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/anima
         * Contact button that leads directly to the contact page.
 
     
-    ![Hero Section](assets/images/hero_section.png)
+    ![Hero Section](documentation/hero_section.png)
 
 --- 
 
@@ -107,7 +107,7 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/anima
     - Attracts viewers to use this company for animal adoption.
 
     
-    ![Highlights Section](assets/images/main_cons.png)
+    ![Highlights Section](documentation/main_cons.png)
 
 
     ---
@@ -122,7 +122,7 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/anima
     - Each card has a name of the pet's owner.
 
 ​
-    ![Testimonials Section](assets/images/testimonials.png)
+    ![Testimonials Section](documentation/testimonials.png)
 
 
 ---
@@ -132,7 +132,7 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/anima
 
     - Is also has a button that directs to the contact page.
 ​
-    ![Call to Action Section](assets/images/call_to_action.png)
+    ![Call to Action Section](documentation/call_to_action.png)
 
 
 ---
@@ -140,7 +140,7 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/anima
 
     - Footer contains social media links that open in a new tab.
 ​
-    ![Footer](assets/images/footer.png)
+    ![Footer](documentation/footer.png)
 ​
 ---
 + ### Gallery Page
@@ -160,7 +160,7 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/anima
     - It has a footer identical to the home page's footer.
     
 ​
-    ![Tour page](assets/images/gallery_page.png)
+    ![Tour page](documentation/gallery_page.png)
 
 
 ---
@@ -182,7 +182,7 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/anima
 
     - The submit button leads to the response page.
 ​
-    ![Contact page](assets/images/contact_form_page.png)
+    ![Contact page](documentation/contact_form_page.png)
 
 
 ---
@@ -191,7 +191,7 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/anima
     - Response page appears after submitting the contact form.
     - It contains the thank you message and the promise to get in touch with the applicant within 24 hours.
 
-    ![Response page](assets/images/response_page.png)
+    ![Response page](documentation/response_page.png)
 
 ---
 
@@ -199,7 +199,7 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/anima
 
 In order to confirm the correct functionality, responsiveness, and appearance:
 
-+ The website was tasted on the following browsers: Chrome, Firefox, Brave.
++ The website was tested on the following browsers: Chrome, Firefox, Brave.
 + The website was checked by devtools implemented in Firefox and Chrome browsers.
 + The website was checked with [Responsive Website Design Tester](https://responsivedesignchecker.com/).
 + The functionality of the links in the website was checked as well by different users.
@@ -233,7 +233,7 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
 + ##### Accessibility and performance 
     - Using lighthouse in devtools I confirmed that the website is performing well, accessible and colors and fonts chosen are readable.
-    ![Performance score](assets/images/performance.png)
+    ![Performance score](documentation/performance.png)
 
 ---
 ## Deployment
@@ -261,22 +261,22 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
 ### Mobile devices
 
-![Home Page. Mobile Screen](assets/images/mobile_home_page.png)
-![Gallery Page. Mobile Screen](assets/images/mobile_gallery_page.png)
-![Contact Page. Mobile Screen](assets/images/mobile_contact_form_page.png)
-![Response Page. Mobile Screen](assets/images/mobile_response_page.png)
+![Home Page. Mobile Screen](documentation/mobile_home_page.png)
+![Gallery Page. Mobile Screen](documentation/mobile_gallery_page.png)
+![Contact Page. Mobile Screen](documentation/mobile_contact_form_page.png)
+![Response Page. Mobile Screen](documentation/mobile_response_page.png)
 
 
 ### Tablets
 
-![Home Page. Tablet Screen](assets/images/tablet_home_page.png)
-![Gallery Page. Tablet Screen](assets/images/tablet_gallery_page.png)
-![Contact Page. Tablet Screen](assets/images/tablet_contact_form_page.png)
-![Response Page. Tablet Screen](assets/images/tablet_response_page.png)
+![Home Page. Tablet Screen](documentation/tablet_home_page.png)
+![Gallery Page. Tablet Screen](documentation/tablet_gallery_page.png)
+![Contact Page. Tablet Screen](documentation/tablet_contact_form_page.png)
+![Response Page. Tablet Screen](documentation/tablet_response_page.png)
 
 ### Desktop
 
-![Home Page. Desktop Screen](assets/images/desktop_home_page.png)
-![Gallery Page. Desktop Screen](assets/images/desktop_gallery_page.png)
-![Contact Page. Desktop Screen](assets/images/desktop_contact_form_page.png)
-![Response Page. Desktop Screen](assets/images/desktop_response_page.png)
+![Home Page. Desktop Screen](documentation/desktop_home_page.png)
+![Gallery Page. Desktop Screen](documentation/desktop_gallery_page.png)
+![Contact Page. Desktop Screen](documentation/desktop_contact_form_page.png)
+![Response Page. Desktop Screen](documentation/desktop_response_page.png)
