@@ -590,31 +590,22 @@ footer {
 
 
 /*----- << Styling 4th Page "RESPONSE* >>----- */
-
+.response {
+     max-width: 90%;
+}
 
 .response_text {
-     outline: 1px solid var(--clr-primary-100);
+     border: 1px solid var(--clr-primary-100);
      border-radius: var(--br);
      padding: 1rem;
      display: flex;
      flex-direction: column;
      justify-content: center;
      align-items: center;
-     margin: 1rem 3rem;
+     margin: 1rem;
 }
 
-.response_text p {
-     font-size: 1.2rem;
-     font-weight: bold;
-     letter-spacing: 0.1rem;
-     text-transform: uppercase;
-     color: var(--clr-primary-100);
-     text-align: center;
-}
 
-.response_text p:last-child {
-     margin-top: 1rem;
-}
 
 
 
