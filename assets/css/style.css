@@ -605,7 +605,19 @@ footer {
      margin: 1rem;
 }
 
+.response_text p {
+     font-size: 1.2rem;
+     font-weight: bold;
+     letter-spacing: 0.1rem;
+     text-transform: uppercase;
+     color: var(--clr-primary-100);
+     text-align: center;
+     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+}
 
+.response_text p:last-child {
+     margin-top: 2rem;
+}
 
 
 
