@@ -438,14 +438,17 @@ footer {
      top: 0;
      left: 0;
      right: 0;
-     display: block;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
      color: white;
      opacity: 0;
      transition: opacity ease-in-out 500ms;
      width: 100%;
      height: 100%;
      background: #464362e9;
-     padding: 3rem;
+     padding: 2rem;
+     font-size: 1em;
 }
 
 .gallery_image:hover .image_content {
