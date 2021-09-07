@@ -194,7 +194,7 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/anima
     ![Response page](documentation/response_page.png)
 
 ---
-# Technologies Used
+## Technologies Used
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) was used as the foundation of the site.
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/css) - was used to add the styles and layout of the site.
@@ -206,6 +206,26 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/anima
 - [Git](https://git-scm.com/) was used for the version control of the website.
 - [GitHub](https://github.com/) was used to host the code of the website.
 - [GIMP](https://www.gimp.org/) was used to make and resize images for the README file.
+
+
+---
+## Design
+
+![Main Color](documentation/main_color.png)
+Soft blue color was used as the main color of the website due to its phycological effect on people's minds. As this color is associated with trustworthiness and reliability, website visitors could build a firm believe in the organization "Animal Shelter".
+
+![Light Blue Color](documentation/light_blue_color.png)
+Light Blue Color was used as a background color since this color creates a sense of tranquility and makes a connenction between animal's ownership and peacfulness.
+ 
+![Accent Color](documentation/accent.png)
+Purple color was used to make an emphasis on the logo and leave a memorable effect on the website visitors.
+
+![Main Font](documentation/primary_font.png)
+Lato Google Font was used as the main font of the website in order to increase readability of the content on the pages.
+
+![Accent Font](documentation/accent_font.png)
+Lobster Google Font was used to attract viewers' attention to the company's logo, to make an accent on the strong points of the company, and to incentivize visitors to contact "Animal Shelter".
+
 
 ---
 
