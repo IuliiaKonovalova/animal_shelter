@@ -662,13 +662,19 @@ footer {
           display: flex;
           justify-content: center;
           text-align: center;
+          width: 100%;
      }
 
      .nav_menu li {
-          margin-right: 2.5em;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-left: 0;
+          margin: auto 3rem;
           margin-bottom: 0.3rem;
           margin-top: 0;
           padding: 0;
+          width: 100%
      }
 
      .nav_menu ul:first-child {
