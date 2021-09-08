@@ -300,6 +300,48 @@ In your IDE Terminal, type the following command to clone my repository:
 + #### Media
 
     - All the images for the website were taken from [Unsplash](https://unsplash.com/).
+    + [Hero image](https://unsplash.com/photos/9gz3wfHr65U);
+    + Main cons images:
+        - [1st image](https://unsplash.com/photos/_STvosrG-pw)
+        - [2nd image](https://unsplash.com/photos/v3-zcCWMjgM);
+        - [3rd image](https://unsplash.com/photos/W4EUiwceZjs);
+        - [4th image](https://unsplash.com/photos/sXU6BeWoZqI).
+    + Testimonial Section: 
+        - [1st image](https://unsplash.com/photos/UCFgM_AojFg);
+        - [2nd image](https://unsplash.com/photos/ISg37AI2A-s);
+        - [3rd image](https://unsplash.com/photos/2WeHZHIW6v0).
+    + Gallery:
+         - [1st image](https://unsplash.com/photos/gKXKBY-C-Dk);
+         - [2nd image](https://unsplash.com/photos/FdR_CoENqp8);
+         - [3rd image](https://unsplash.com/photos/C0zDWAPFT9A);
+         - [4th image](https://unsplash.com/photos/WrG-lFojjW4);
+         - [5th image](https://unsplash.com/photos/IbPxGLgJiMI);
+         - [6th image](https://unsplash.com/photos/tf2BKM9iy9o);
+         - [7th image](https://unsplash.com/photos/iYQC9xWMvw4);
+         - [8th image](https://unsplash.com/photos/o_QTeyGVWjQ);
+         - [9th image](https://unsplash.com/photos/AH7JYgyAlqA);
+         - [10th image](https://unsplash.com/photos/sssxyuZape8);
+         - [11th image](https://unsplash.com/photos/4tc7_jEgGzg);
+         - [12th image](https://unsplash.com/photos/GewH2PtoR1s);
+         - [13th image](https://unsplash.com/photos/7GX5aICb5i4);
+         - [14th image](https://unsplash.com/photos/VvO8e8n0Ffg);
+         - [15th image](https://unsplash.com/photos/1Y4LupdrDZk);
+         - [16th image](https://unsplash.com/photos/uumnRC_kVks);
+         - [17th image](https://unsplash.com/photos/h7VBJRBcieM);
+         - [18th image](https://unsplash.com/photos/Ud4k7O6CJPM);
+         - [19th image](https://unsplash.com/photos/ngqyo2AYYnE);
+         - [20th image](https://unsplash.com/photos/g3B53PbBfwU);
+         - [21st image](https://unsplash.com/photos/JSfsK9VH4q8);
+         - [22nd image](https://unsplash.com/photos/FilM6ng7VGQ);
+         - [23rd image](https://unsplash.com/photos/UtrE5DcgEyg);
+         - [24th image](https://unsplash.com/photos/IuJc2qh2TcA);
+         - [25th image](https://unsplash.com/photos/1-sM8xqPFTM);
+         - [26th image](https://unsplash.com/photos/zBvVuRJ71vU);
+         - [27th image](https://unsplash.com/photos/dEtvMzcbYiA);
+         - [28th image](https://unsplash.com/photos/J7rRzjba-kY);
+         - [29th image](https://unsplash.com/photos/mx0DEnfYxic);
+         - [30th image](https://unsplash.com/photos/VwqecUsYKvs);
+
     - All images were compressed by using the website [Compress JPEG](https://compressjpeg.com/).
     - All images for the gallery were resized by using the website [IMGonline.com.ua](https://www.imgonline.com.ua/eng/resize-image.php).
     - Images for the README file were made or edited with [GIMP](https://www.gimp.org/).
