@@ -284,7 +284,14 @@ In order to confirm the correct functionality, responsiveness, and appearance:
     ![Response Page HTML Validator](documentation/w3_validator_response_page.png)
     
 + ##### CSS
-    - No errors or warnings were found when passing through the official W3C (Jigsaw) validator except 3 errors regarding *all: unset*.  properties do not exist.
+    No errors or warnings were found when passing through the official W3C (Jigsaw) validator except:
+    
+    - 3 errors regarding *all: unset*: "Property all doesn't exist. The closest matching property name is fill : unset".
+    ![CSS Validator errors](documentation/w3_validator_css_errors.png)
+
+    - 43 warning regarding the use of *:root variables*: "Due to their dynamic nature, CSS variables are currently not statically checked".
+    ![CSS Validator errors](documentation/w3_validator_css_warnings.png)
+
 
 + ##### Accessibility and performance 
     - Using lighthouse in devtools I confirmed that the website is performing well, accessible and colors and fonts chosen are readable.
