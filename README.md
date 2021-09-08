@@ -271,7 +271,22 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
 ---
 ## Deployment
-+ The website was deployed to GitHub pages and can be accessed by the link: [Animal Shelter](https://iuliiakonovalova.github.io/animal_shelter/).
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the [GitHub repository](https://github.com/IuliiaKonovalova/animal_shelter), navigate to the Settings tab 
+  - From the source section drop-down menu, select the **Main** Branch, then click "Save".
+  - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found [here](https://iuliiakonovalova.github.io/animal_shelter)
+
+## Local Deployment
+
+In order to make a local copy of this project, you can clone it.
+In your IDE Terminal, type the following command to clone my repository:
+
+- `git clone https://github.com/IuliiaKonovalova/animal_shelter.git`
+
+- Alternatively, if you use Gitpod, you can [click here](https://gitpod.io/#https://github.com/IuliiaKonovalova/animal_shelter), which will start the Gitpod workspace for you.
 
 ---
 ## Credits
