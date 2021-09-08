@@ -113,7 +113,7 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/anima
     ---
 + ##### Testimonials Section
 
-    - Testimonials Sectionhas three feedbacks from people who were satisfied with the company's service.
+    - Testimonials Section has three feedbacks from people who were satisfied with the company's service.
 
     - Each card has a picture of an animal with its owner.
 
@@ -153,7 +153,7 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/anima
 
         - The gallery is responsive: the size of the photo depends on the user's screen.
         - Each image has a description of the animal that appears on hover.
-        - descriptional information contains the name of the animal and its characteristics.
+        - description information contains the name of the animal and its characteristics.
 
     - It has a call to action section below the gallery with the incentivizing message and the button that leads to the contact form.
 
@@ -270,27 +270,33 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 + ##### HTML
     ###### Home Page
     - No errors or warnings were found when passing through the official W3C validator.
-    ![Home Page HTML Validator](documentation/w3_validator_home_page.png)
+
+![Home Page HTML Validator](documentation/w3_validator_home_page.png)
     ###### Gallery Page
     - No errors or warnings were found when passing through the official W3C validator.
-    ![Gallery Page HTML Validator](documentation/w3_validator_gallery_page.png)
+
+![Gallery Page HTML Validator](documentation/w3_validator_gallery_page.png)
 
     ###### Contact Page
     - No errors or warnings were found when passing through the official W3C validator.
-    ![Contact Page HTML Validator](documentation/w3_validator_contact_page.png)
+
+![Contact Page HTML Validator](documentation/w3_validator_contact_page.png)
 
     ###### Response Page
     - No errors or warnings were found when passing through the official W3C validator.
-    ![Response Page HTML Validator](documentation/w3_validator_response_page.png)
+
+![Response Page HTML Validator](documentation/w3_validator_response_page.png)
     
 + ##### CSS
     No errors or warnings were found when passing through the official W3C (Jigsaw) validator except:
     
     - 3 errors regarding *all: unset*: "Property all doesn't exist. The closest matching property name is fill : unset".
-    ![CSS Validator errors](documentation/w3_validator_css_errors.png)
+
+![CSS Validator errors](documentation/w3_validator_css_errors.png)
 
     - 43 warning regarding the use of *:root variables*: "Due to their dynamic nature, CSS variables are currently not statically checked".
-    ![CSS Validator errors](documentation/w3_validator_css_warnings.png)
+
+![CSS Validator errors](documentation/w3_validator_css_warnings.png)
 
 
 + ##### Accessibility and performance 
