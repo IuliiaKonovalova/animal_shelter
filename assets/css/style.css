@@ -894,6 +894,7 @@ footer {
      }
 
      .nav_menu ul {
+          width: unset;
           display: flex;
      }
 
