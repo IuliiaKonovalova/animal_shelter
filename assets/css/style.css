@@ -747,6 +747,14 @@ footer {
           grid-template-columns: repeat(3, minmax(10em, 1fr));
      }
 
+     .image_name {
+          font-size: 1.5rem;
+     }
+
+     .image_description {
+          font-size: 1rem;
+     }
+
      /*Media for Contact page*/
      .contact__page {
           min-height: 100vh;
@@ -1079,10 +1087,9 @@ footer {
      }
 }
 
-@media screen and (min-width: 510px) and (max-width: 650px) {
+/*----- Media for the gallery images text -----*/
 
-
-
+@media screen and (min-width: 31.875rem) and (max-width: 40.625rem) {
      .image_content {
           padding: 1.5rem;
      }
@@ -1097,29 +1104,90 @@ footer {
      }
 }
 
-@media screen and (min-width: 650px) and (max-width: 745px) {
-
-
-
-     .image_content {
-          padding: 1.5rem;
-     }
-
+@media screen and (min-width: 40.625rem) and (max-width: 46.5625rem) {
      .image_name {
           font-size: 4rem;
      }
 
      .image_description {
           font-size: 2.5rem;
-          padding: 2rem 1rem;
+     }
+}
+
+@media screen and (min-width: 46.5626rem) and (max-width: 49.9375rem) {
+     .image_name {
+          font-size: 2rem;
+     }
+
+     .image_description {
+          font-size: 1.5rem;
+     }
+}
+
+@media screen and (min-width: 55rem) and (max-width: 58rem) {
+     .image_name {
+          font-size: 1.7rem;
+     }
+
+     .image_description {
+          font-size: 1.2rem;
+     }
+}
+
+@media screen and (min-width: 58rem) and (max-width: 70rem) {
+     .image_content {
+          padding: 1rem;
+     }
+
+     .image_name {
+          font-size: 1.7rem;
+     }
+
+     .image_description {
+          font-size: 1.4rem;
+     }
+}
+
+@media screen and (min-width: 70rem) and (max-width: 76rem) {
+     .image_content {
+          padding: 2rem;
+     }
+
+     .image_name {
+          font-size: 1.9rem;
+     }
+
+     .image_description {
+          font-size: 1.5rem;
+     }
+}
+
+@media screen and (min-width: 76rem) and (max-width: 100rem) {
+     .image_content {
+          padding: 2rem;
+     }
+
+     .image_name {
+          font-size: 2rem;
+     }
+
+     .image_description {
+          font-size: 1.6rem;
      }
 }
 
 @media screen and (min-width: 100rem) {
-     .image_description {
-          font-size: 1.5rem;
+     .image_name {
+          font-size: 2rem;
      }
 
+     .image_content {
+          padding: 2rem;
+     }
+
+     .image_description {
+          font-size: 1.7rem;
+     }
 }
 
 @media screen and (min-width: 120rem) {
@@ -1127,12 +1195,12 @@ footer {
           grid-template-columns: repeat(5, minmax(10em, 1fr));
      }
 
-     .image_name {
-          font-size: 5vh;
+     .image_content {
+          padding: 2rem;
      }
 
      .image_description {
-          font-size: 3vh;
+          font-size: 1.7rem;
      }
 }
 
