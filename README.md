@@ -255,6 +255,23 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
 
 + The website was checked by devtools implemented in Firefox and Chrome browsers.
+
+    - Main Page:
+
+    ![Main Page](documentation/responsiveness_main_page.gif)
+
+    - Gallery Page:
+
+    ![Gallery Page](documentation/responsiveness_gallery_page.gif)
+
+    - Contact Page:
+
+    ![Contact Page](documentation/responsiveness_contact_page.gif)
+
+    - Response Page:
+
+    ![Response Page](documentation/responsiveness_response_page.gif)
+
 + The website was checked with [Responsive Website Design Tester](https://responsivedesignchecker.com/).
 + The functionality of the links in the website was checked as well by different users.
 
