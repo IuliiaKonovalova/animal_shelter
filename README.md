@@ -219,7 +219,7 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/anima
 
 - Light Blue Color was used as a background color since this color creates a sense of tranquility and makes a connection between animal's ownership and peacefulness.
  
-![Accent Color](documentation/accent.png)
+![Accent Color](documentation/accent_color.png)
 
 - Purple color was used to make an emphasis on the logo and leave a memorable effect on the website visitors.
 
@@ -242,20 +242,16 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
     - Chrome:
 
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="">
-    <source src="documentation/browsers_google.mp4" type="video/mp4">
-  </video>
-</figure>
+    ![Chrome](documentation/browsers_google.gif)
 
 
     - FireFox:
 
-
+    ![FireFox](documentation/browsers_firefox.gif)
 
     - Brave:
 
-    ![Brave](documentation/browsers_brave.mp4);
+    ![Brave](documentation/browsers_brave.gif)
 
 
 + The website was checked by devtools implemented in Firefox and Chrome browsers.
