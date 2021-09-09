@@ -239,6 +239,20 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/anima
 In order to confirm the correct functionality, responsiveness, and appearance:
 
 + The website was tested on the following browsers: Chrome, Firefox, Brave.
+
+    - Chrome:
+
+    ![Chrome](documentation/browsers_google.mp4);
+
+    - FireFox:
+
+    ![FireFox](documentation/browsers_firefox.mp4);
+
+    - Brave:
+
+    ![Brave](documentation/browsers_brave.mp4);
+
+
 + The website was checked by devtools implemented in Firefox and Chrome browsers.
 + The website was checked with [Responsive Website Design Tester](https://responsivedesignchecker.com/).
 + The functionality of the links in the website was checked as well by different users.
