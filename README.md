@@ -273,6 +273,20 @@ In order to confirm the correct functionality, responsiveness, and appearance:
     ![Response Page](documentation/responsiveness_response_page.gif)
 
 + The website was checked with [Responsive Website Design Tester](https://responsivedesignchecker.com/).
+
+    - Desktop Screens:
+
+    ![Desktop 1024x600](documentation/desktop_1024_600.gif)
+    ![Desktop 1024x800](documentation/desktop_1024_800.gif)
+    ![Desktop 1366x768](documentation/desktop_1366_768.gif)
+    ![Desktop 1440x900](documentation/desktop_1440_900.gif)
+    ![Desktop 1600x900](documentation/desktop_1600_900.gif)
+    ![Desktop 1680x1050](documentation/desktop_16080_1050.gif)
+    ![Desktop 1920x1080](documentation/desktop_1920_1080.gif)
+    ![Desktop 1920x1200](documentation/desktop_1920_1200.gif)
+
+
+
 + The functionality of the links in the website was checked as well by different users.
 
 ---
