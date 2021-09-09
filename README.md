@@ -291,9 +291,18 @@ In order to confirm the correct functionality, responsiveness, and appearance:
     ![Tablet 768x1024](documentation/tablet_768_1024.gif)
     ![Tablet 800x1280](documentation/tablet_800_1280.gif)
     ![Tablet 1024x768](documentation/tablet_1024_768.gif)
-    [Tablet 1366x1024](documentation/tablet_1366_1024.gif)
+    ![Tablet 1366x1024](documentation/tablet_1366_1024.gif)
     ![Tablet Kindle 768x1024](documentation/tablet_kindle_768_1024.gif)
 
+    - Mobile Screens:
+
+    ![Mobile 320x480](documentation/mobile_320_480.gif)
+    ![Mobile 320x568](documentation/mobile_320_568.gif)
+    ![Mobile 360x640](documentation/mobile_360_640.gif)
+    ![Mobile 375x667](documentation/mobile_375_667.gif)
+    ![Mobile 384x640](documentation/mobile_384_640.gif)
+    ![Mobile 411x731](documentation/mobile_411_731.gif)
+    ![Mobile 414x736](documentation/mobile_414_736.gif)
 
 + The functionality of the links in the website was checked as well by different users.
 
