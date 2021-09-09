@@ -242,12 +242,16 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
     - Chrome:
 
-    ![Chrome](documentation/browsers_google.mp4);
-    [![Chrome]({documentation/primary_font.png})]({documentation/browsers_google.mp4} "Chrome")
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true" poster="">
+    <source src="documentation/browsers_google.mp4" type="video/mp4">
+  </video>
+</figure>
+
 
     - FireFox:
 
-    ![FireFox](documentation/browsers_firefox.mp4);
+
 
     - Brave:
 
