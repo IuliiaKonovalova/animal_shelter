@@ -1211,7 +1211,7 @@ footer {
      }
 }
 
-@media screen and (max-width: 678px) and (max-height: 677px) {
+@media screen and (max-width: 42.375rem) and (max-height: 42.313) {
 
 
      .image_name {
@@ -1352,5 +1352,13 @@ footer {
 
      .grid_gallery {
           grid-template-columns: repeat(2, minmax(8em, 1fr));
+     }
+
+     .image_name {
+          font-size: 1.5rem;
+     }
+
+     .image_description {
+          font-size: 1.1rem;
      }
 }
