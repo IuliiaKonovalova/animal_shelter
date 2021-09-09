@@ -410,6 +410,7 @@ In your IDE Terminal, type the following command to clone my repository:
 
     - All images were compressed by using the website [Compress JPEG](https://compressjpeg.com/).
     - All images for the gallery were resized by using the website [IMGonline.com.ua](https://www.imgonline.com.ua/eng/resize-image.php).
+    - GIFs were made using the website [EzGif](https://ezgif.com).
     - Images for the README file were made or edited with [GIMP](https://www.gimp.org/).
 
 
