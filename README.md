@@ -243,6 +243,7 @@ In order to confirm the correct functionality, responsiveness, and appearance:
     - Chrome:
 
     ![Chrome](documentation/browsers_google.mp4);
+    [![Chrome]({documentation/primary_font.png})]({documentation/browsers_google.mp4} "Chrome")
 
     - FireFox:
 
