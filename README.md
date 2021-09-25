@@ -75,7 +75,7 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/anima
 
 ---
 
-+ ##### Hero Section
++ #### Hero Section
 
     - Hero section have a fixed background image.
 
@@ -91,9 +91,9 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/anima
 --- 
 
 ---    
-+ ##### Highlights Section
++ #### Highlights Section
 
-    - Hightlight Section has 4 cards with strong descriptive characteristics of the company.
+    - Highlight Section has 4 cards with strong descriptive characteristics of the company.
 
     - Tells website visitors how well animals are in the Animal Shelter.
 
@@ -104,7 +104,7 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/anima
 
 
     ---
-+ ##### Testimonials Section
++ #### Testimonials Section
 
     - Testimonials Section has three feedbacks from people who were satisfied with the company's service.
 
@@ -119,7 +119,7 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/anima
 
 
 ---
-+ ##### Call to Action Section
++ #### Call to Action Section
 
     - Call to Action Section has an explicit message for the visitors of the website to contact the company.
 
@@ -129,7 +129,7 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/anima
 
 
 ---
-+ ##### Footer
++ #### Footer
 
     - Footer contains social media links that open in a new tab.
 ​
@@ -238,7 +238,6 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
     ![Chrome](documentation/browsers_google.gif)
 
-
     - FireFox:
 
     ![FireFox](documentation/browsers_firefox.gif)
@@ -324,39 +323,43 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
 ---
 ## Validator testing
-+ ##### HTML
-    ###### Home Page
++ ### HTML
+  #### Home Page
     - No errors or warnings were found when passing through the official W3C validator.
 
-![Home Page HTML Validator](documentation/w3_validator_home_page.png)
-    ###### Gallery Page
-    - No errors or warnings were found when passing through the official W3C validator.
 
-![Gallery Page HTML Validator](documentation/w3_validator_gallery_page.png)
-
-    ###### Contact Page
-    - No errors or warnings were found when passing through the official W3C validator.
-
-![Contact Page HTML Validator](documentation/w3_validator_contact_page.png)
-
-    ###### Response Page
-    - No errors or warnings were found when passing through the official W3C validator.
-
-![Response Page HTML Validator](documentation/w3_validator_response_page.png)
+    ![Home Page HTML Validator](documentation/w3_validator_home_page.png)
     
-+ ##### CSS
-    No errors or warnings were found when passing through the official W3C (Jigsaw) validator except:
+  #### Gallery Page
+    - No errors or warnings were found when passing through the official W3C validator.
+
+    ![Gallery Page HTML Validator](documentation/w3_validator_gallery_page.png)
+
+  #### Contact Page
+    - No errors or warnings were found when passing through the official W3C validator.
+
+    ![Contact Page HTML Validator](documentation/w3_validator_contact_page.png)
+
+  #### Response Page
+    - No errors or warnings were found when passing through the official W3C validator.
+
+    ![Response Page HTML Validator](documentation/w3_validator_response_page.png)
+    
++ ### CSS
+  No errors or warnings were found when passing through the official W3C (Jigsaw) validator except:
     
     - 3 errors regarding *all: unset*: "Property all doesn't exist. The closest matching property name is fill : unset".
 
-![CSS Validator errors](documentation/w3_validator_css_errors.png)
+    - Even though this error is present, I don't believe it is 100% accurate, and more information can be found [here](https://developer.mozilla.org/en-US/docs/Web/CSS/all)
 
+  ![CSS Validator errors](documentation/w3_validator_css_errors.png)
+  
     - 43 warning regarding the use of *:root variables*: "Due to their dynamic nature, CSS variables are currently not statically checked".
+    
+  ![CSS Validator errors](documentation/w3_validator_css_warnings.png)
 
-![CSS Validator errors](documentation/w3_validator_css_warnings.png)
 
-
-+ ##### Accessibility and performance 
++ ### Accessibility and performance 
     - Using lighthouse in devtools I confirmed that the website is performing well, accessible and colors and fonts chosen are readable.
     ![Performance score](documentation/performance.png)
 
