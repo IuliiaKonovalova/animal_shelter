@@ -183,6 +183,7 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/anima
 
     - Response page appears after submitting the contact form.
     - It contains the thank you message and the promise to get in touch with the applicant within 24 hours.
+    - It will automatically direct the user to the main page in 10 seconds.
 
     ![Response page](documentation/response_page.png)
 
