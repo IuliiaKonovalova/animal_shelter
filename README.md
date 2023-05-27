@@ -205,6 +205,8 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/anima
 ---
 ## Design
 
+### Color Scheme
+
 ![Color pallet](documentation/color_pallet.png)
 
 - Soft blue color was used as the main color of the website due to its phycological effect on people's minds. As this color is associated with trustworthiness and reliability, website visitors could build a firm believe in the organization "Animal Shelter".
@@ -213,6 +215,8 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/anima
 
 - Purple color was used to make an emphasis on the logo and leave a memorable effect on the website visitors.
 
+### Typography
+
 ![Main Font](documentation/primary_font.png)
 
 - Lato Google Font was used as the main font of the website in order to increase readability of the content on the pages.
@@ -220,6 +224,31 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/anima
 ![Accent Font](documentation/accent_font.png)
 
 - Lobster Google Font was used to attract viewers' attention to the company's logo, to make an accent on the strong points of the company, and to incentivize visitors to contact "Animal Shelter".
+
+
+### Wireframes
+
+#### Mobile devices
+
+- [Home Page. Mobile Screen](documentation/mobile_home_page.png)
+- [Gallery Page. Mobile Screen](documentation/mobile_gallery_page.png)
+- [Contact Page. Mobile Screen](documentation/mobile_contact_form_page.png)
+- [Response Page. Mobile Screen](documentation/mobile_response_page.png)
+
+
+#### Tablets
+
+- [Home Page. Tablet Screen](documentation/tablet_home_page.png)
+- [Gallery Page. Tablet Screen](documentation/tablet_gallery_page.png)
+- [Contact Page. Tablet Screen](documentation/tablet_contact_form_page.png)
+- [Response Page. Tablet Screen](documentation/tablet_response_page.png)
+
+#### Desktop
+
+- [Home Page. Desktop Screen](documentation/desktop_home_page.png)
+- [Gallery Page. Desktop Screen](documentation/desktop_gallery_page.png)
+- [Contact Page. Desktop Screen](documentation/desktop_contact_form_page.png)
+- [Response Page. Desktop Screen](documentation/desktop_response_page.png)
 
 
 ---
@@ -493,27 +522,3 @@ In your IDE Terminal, type the following command to clone my repository:
 - [Kevin Powell](https://www.youtube.com/user/KepowOb) for his amazing CSS tutorials.
 
 ---
-
-## Wireframes
-
-### Mobile devices
-
-![Home Page. Mobile Screen](documentation/mobile_home_page.png)
-![Gallery Page. Mobile Screen](documentation/mobile_gallery_page.png)
-![Contact Page. Mobile Screen](documentation/mobile_contact_form_page.png)
-![Response Page. Mobile Screen](documentation/mobile_response_page.png)
-
-
-### Tablets
-
-![Home Page. Tablet Screen](documentation/tablet_home_page.png)
-![Gallery Page. Tablet Screen](documentation/tablet_gallery_page.png)
-![Contact Page. Tablet Screen](documentation/tablet_contact_form_page.png)
-![Response Page. Tablet Screen](documentation/tablet_response_page.png)
-
-### Desktop
-
-![Home Page. Desktop Screen](documentation/desktop_home_page.png)
-![Gallery Page. Desktop Screen](documentation/desktop_gallery_page.png)
-![Contact Page. Desktop Screen](documentation/desktop_contact_form_page.png)
-![Response Page. Desktop Screen](documentation/desktop_response_page.png)
