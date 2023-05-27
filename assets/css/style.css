@@ -544,6 +544,7 @@ footer {
   display: none;
 }
 
+
 .text_input {
   padding: 2vh;
   border: 1px solid var(--clr-primary-300);
@@ -557,6 +558,7 @@ footer {
 
 .text_input:focus {
   outline: none;
+  border: 1px solid var(--clr-accent-900);
 }
 
 .input_first_name {
