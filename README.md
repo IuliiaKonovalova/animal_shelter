@@ -426,7 +426,7 @@ In your IDE Terminal, type the following command to clone my repository:
 
     - Inspiration for the gallery hover effect came from the article "How to add a gradient to overlay to a background image using just CSS and HTML" published the website [Web Dev etc](https://webdevetc.com).
     - Inspiration for the responsive hamburger navbar came from [Kevin Powell](https://www.youtube.com/user/KepowOb) on his YouTube channel.
-    
+
 + #### Media
 
     - All the images for the website were taken from [Unsplash](https://unsplash.com/).
@@ -482,6 +482,18 @@ In your IDE Terminal, type the following command to clone my repository:
 
 
 ---
+
+## Acknowledgements
+
+## Acknowledgments
+
+- [Tim Nelson](https://github.com/TravelTimN) was a great supporter of another bold idea of mine for this project. Tim guided me through the development of the project and helped me to learn a lot of new things by challenging me to do something new.
+- [Aleksei Konovalov](https://github.com/lexach91), my husband and coding partner, assisted me greatly in product values js selection control implementation and helped me to stay sane.
+- [Code Institute](https://codeinstitute.net/) tutors and Slack community members for their support and help.
+- [Kevin Powell](https://www.youtube.com/user/KepowOb) for his amazing CSS tutorials.
+
+---
+
 ## Wireframes
 
 ### Mobile devices
