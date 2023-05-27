@@ -385,6 +385,10 @@ footer {
   font-size: 2rem;
 }
 
+.social_networks i:hover {
+  color: var(--clr-accent-900);
+}
+
 /*----- << Styling 2nd Page "GALLERY >>----- */
 
 
