@@ -593,6 +593,7 @@ footer {
   justify-self: center;
   padding: 0.5rem;
   font-size: 1.2rem;
+  cursor: pointer;
 }
 
 
