@@ -205,15 +205,11 @@ The site can be accessed by this [link](https://iuliiakonovalova.github.io/anima
 ---
 ## Design
 
-![Main Color](documentation/main_color.png)
+![Color pallet](documentation/color_pallet.png)
 
 - Soft blue color was used as the main color of the website due to its phycological effect on people's minds. As this color is associated with trustworthiness and reliability, website visitors could build a firm believe in the organization "Animal Shelter".
 
-![Light Blue Color](documentation/light_blue_color.png)
-
 - Light Blue Color was used as a background color since this color creates a sense of tranquility and makes a connection between animal's ownership and peacefulness.
- 
-![Accent Color](documentation/accent_color.png)
 
 - Purple color was used to make an emphasis on the logo and leave a memorable effect on the website visitors.
 
