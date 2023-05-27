@@ -8,13 +8,11 @@
   <meta name="description" content="Animal shelter for people who wants adopt or help animals">
   <meta name="keywords" content="animal shelter, shelter for animals, animals, animal adoption, help animals">
   <meta name="author" content="Iuliia Konovalova">
-  <meta http-equiv="refresh" content="10; url=index.html">
   <link rel="stylesheet" href="assets/css/style.css">
   <title>Animal Shelter Contact Page</title>
 </head>
 
-<body>
-  <div class="contact__page">
+<body class="contact__page">
     <header>
       <!--Nav bar content-->
       <div class="nav_container">
@@ -46,15 +44,12 @@
         </label>
       </div>
     </header>
-
     <!--Content-->
-
     <main class="content bg-content">
-
       <!--Form Section-->
-
       <section class="contact_form">
         <div class="contact_form_container">
+          <!-- Form -->
           <form method="GET" action="response.html" class="sign-up_form">
             <h2 class="contact_form_title">
               Let's get in touch!
@@ -62,24 +57,25 @@
             <p class="contact_form_incentive">
               fill you life wih light!
             </p>
-
+            <!-- First Name -->
             <label for="first_name" class="label_hidden label_first_name">First Name</label>
             <div class="input_first_name">
               <input id="first_name" name="first__name" type="text" placeholder="First Name" required
                 class="text_input" />
             </div>
-
+            <!-- Last Name -->
             <label for="last_name" class="label_hidden label_last_name">Last Name</label>
             <div class="input_last_name">
               <input id="last_name" name="last__name" type="text" placeholder="Last Name" required
                 class="text_input">
             </div>
-
+            <!-- Email -->
             <label for="email" class="label_hidden label_email">Email Address</label>
             <div class="input_email">
               <input type="email" id="email" name="email_address" placeholder="Email Address" required
                 class="text_input">
             </div>
+            <!-- Checkbox for contact issue -->
             <div class="adoption_donation">
               <div class="contact_issue label_adoption">
                 <label for="adoption" class="adopt">adopt</label>
@@ -88,19 +84,17 @@
               </div>
               <div class="contact_issue label_donation">
                 <label for="donation" class="donate">Donate</label>
-
                 <input type="checkbox" id="donation" name="contact_issue" value="donation"
                   class="form_checkbox">
               </div>
             </div>
+            <!-- Submit button -->
             <button class="btn form_btn" type="submit">Submit</button>
           </form>
         </div>
       </section>
     </main>
-
     <!--Footer-->
-
     <footer class="footer_fixed">
       <ul class="social_networks">
         <li>
@@ -121,10 +115,7 @@
         </li>
       </ul>
     </footer>
-  </div>
-
   <!--Script for icons "Font Awesome"-->
-
   <script src="https://kit.fontawesome.com/9237ee6e28.js" crossorigin="anonymous"></script>
 </body>
 </html>
