@@ -426,8 +426,7 @@ In your IDE Terminal, type the following command to clone my repository:
 
     - Inspiration for the gallery hover effect came from the article "How to add a gradient to overlay to a background image using just CSS and HTML" published the website [Web Dev etc](https://webdevetc.com).
     - Inspiration for the responsive hamburger navbar came from [Kevin Powell](https://www.youtube.com/user/KepowOb) on his YouTube channel.
-    - The content was checked by my dear friend Zulya.
-
+    
 + #### Media
 
     - All the images for the website were taken from [Unsplash](https://unsplash.com/).
@@ -473,10 +472,13 @@ In your IDE Terminal, type the following command to clone my repository:
          - [29th image](https://unsplash.com/photos/mx0DEnfYxic);
          - [30th image](https://unsplash.com/photos/VwqecUsYKvs);
 
-    - All images were compressed by using the website [Compress JPEG](https://compressjpeg.com/).
-    - All images for the gallery were resized by using the website [IMGonline.com.ua](https://www.imgonline.com.ua/eng/resize-image.php).
-    - GIFs were made using the website [EzGif](https://ezgif.com).
-    - Images for the README file were made or edited with [GIMP](https://www.gimp.org/).
++ #### Tools
+
+    - [Compress JPEG](https://compressjpeg.com/) was used to compress JPEG images.
+    - [IMGonline.com.ua](https://www.imgonline.com.ua/eng/resize-image.php) was used to resize images.
+    - [EzGif](https://ezgif.com) was used to resize GIF images.
+    - [GIMP](https://www.gimp.org/) was used to edit all README.md images.
+    - [cooler](https://coolors.co/) was used to create the color palette.
 
 
 ---
