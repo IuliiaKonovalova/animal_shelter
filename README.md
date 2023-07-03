@@ -460,7 +460,7 @@ In your IDE Terminal, type the following command to clone my repository:
 - add custom 404 page;
 - add accessability report with [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/);
 - improve the quality of the commit messages (I am aware that some of them are not very clear and not meeting the standards and will improve them in the future);
-- add fully functional contact form when;
+- add fully functional contact form.
 
 ---
 ## Credits
