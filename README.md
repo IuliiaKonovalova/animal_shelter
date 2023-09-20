@@ -261,6 +261,8 @@ Please refer to the [TESTING.md](TESTING.md) file for all test-related documenta
 
 ## Deployment
 
+### Deployment to GitHub Pages
+
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the [GitHub repository](https://github.com/IuliiaKonovalova/animal_shelter), navigate to the Settings tab 
   - From the source section drop-down menu, select the **Main** Branch, then click "Save".
@@ -268,7 +270,7 @@ Please refer to the [TESTING.md](TESTING.md) file for all test-related documenta
 
 The live link can be found [here](https://iuliiakonovalova.github.io/animal_shelter)
 
-## Local Deployment
+### Local Deployment
 
 In order to make a local copy of this project, you can clone it.
 In your IDE Terminal, type the following command to clone my repository:
